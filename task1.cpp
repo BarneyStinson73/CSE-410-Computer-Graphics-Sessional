@@ -12,8 +12,10 @@ using namespace std;
 #define ORIGIN point(0,0,0)
 #define CAM_INIT_UP point(0,0,1)
 #define CAM_INIT_L point(-1 / sqrt(2), -1 / sqrt(2), 0)
+// #define CAM_INIT_L point(0,0,0)
 #define CAM_INIT_R point(-1 / sqrt(2), 1 / sqrt(2), 0)
-#define CAM_INIT_POS point(100, 100, 100)
+
+#define CAM_INIT_POS point(10, 10, 10)
 #define CAM_MOVE_DIST 3
 #define CAM_ROTATE_ANGLE 5
 #define AXIS_LEN 1000
@@ -81,12 +83,30 @@ class point{
     point operator*(point a){
         return point(a.x*x,a.y*y,a.z*z);
     }
+
+    point cross_product(point a){
+        return point(y*a.z-z*a.y,z*a.x-x*a.z,x*a.y-y*a.x);
+    }
     // friend point operator*(double constant, point const& right);
 
 };
 // point operator*(double constant, point const& right) {
 //     return point(right.x*constant,right.y*constant,right.z*constant);
 // }
+point normalize(point p){
+    double t;
+    t=p.x * p.x + p.y* p.y + p.z*p.z;
+    t=sqrt(t);
+    p.x=p.x/t;
+    p.y=p.y/t;
+    p.z=p.z/t;
+    return p;    
+}
+point look_calculation(point pos,point look){
+    point temp;
+    temp=look-pos;
+    return temp;    
+}
 class cam_position{
     public:
     point up;
@@ -105,22 +125,45 @@ class cam_position{
         right=c;
     }
     void move_up(){
-        position+up * CAM_MOVE_DIST;
+        // point up_vector;
+        // up_vector= up - position;
+        point up_vector=normalize(up);
+        position+=up_vector * CAM_MOVE_DIST;
+        look+=up_vector * CAM_MOVE_DIST;
     }
     void move_down(){
-        position-up * CAM_MOVE_DIST;
+        // point up_vector;
+        // up_vector= up - position;   
+        point up_vector=normalize(up);
+        position-=up_vector * CAM_MOVE_DIST;
+        look-=up_vector * CAM_MOVE_DIST;
     }
     void move_left(){
-        position-right * CAM_MOVE_DIST;
+    
+        point up_vector=normalize(up);
+        point look_vector = normalize(look - position);
+        point right_vector = look_vector.cross_product(up_vector);
+        position-=right_vector * CAM_MOVE_DIST;
+        look-=right_vector * CAM_MOVE_DIST;
     }
     void move_right(){
-        position+right * CAM_MOVE_DIST;
+        point up_vector=normalize(up);
+        point look_vector = normalize(look - position);
+        point right_vector = look_vector.cross_product(up_vector);
+        position+=right_vector * CAM_MOVE_DIST;
+        look+=right_vector * CAM_MOVE_DIST;
     }
     void move_forward(){
-        position+look * CAM_MOVE_DIST;
+        point look_vector;
+        look_vector= look - position;
+        look_vector=normalize(look_vector);
+        position+=look_vector * CAM_MOVE_DIST;
     }
     void move_backward(){
-        position-look * CAM_MOVE_DIST;
+        point look_vector;
+        look_vector= look - position;
+        look_vector=normalize(look_vector);
+        position-=look_vector * CAM_MOVE_DIST;
     }
     void look_left(){
         double angle = DEG2RAD(CAM_ROTATE_ANGLE);
@@ -153,30 +196,41 @@ class cam_position{
         double angle = DEG2RAD(-CAM_ROTATE_ANGLE);
         // angle=angle*(-1.0);
         right = right * cos(angle) - up * sin(angle);
-        up = right * (-sin(angle)) + up * cos(angle);
+        up = right * (sin(angle)) + up * cos(angle);
+    }
+    void print(){
+        cout<<"up: "<<up.x<<" "<<up.y<<" "<<up.z<<endl;
+        cout<<"look: "<<look.x<<" "<<look.y<<" "<<look.z<<endl;
+        cout<<"right: "<<right.x<<" "<<right.y<<" "<<right.z<<endl;
+        cout<<"position: "<<position.x<<" "<<position.y<<" "<<position.z<<endl;
+    
     }
 };
 cam_position cam;
 void draw_axis(){
+    glPushMatrix();
     glBegin(GL_LINES);
     {
         glColor3f(1, 0, 0);
-        glVertex3f(0, 0, 0);
+        glVertex3f(-AXIS_LEN , 0, 0);
         glVertex3f(AXIS_LEN, 0, 0);
         glColor3f(0, 1, 0);
-        glVertex3f(0, 0, 0);
+        glVertex3f(0, -AXIS_LEN , 0);
         glVertex3f(0, AXIS_LEN, 0);
         glColor3f(0, 0, 1);
-        glVertex3f(0, 0, 0);
+        glVertex3f(0, 0, -AXIS_LEN );
         glVertex3f(0, 0, AXIS_LEN);
     }
     glEnd();
+
+    glPopMatrix();
 }
 
 double a=0.5;
 // 1- look left, 2- look right, 3- look up, 4- look down, 5- tilt anti clockwise, 6- tilt clockwise
 // up arrow- move forward, down arrow- move backward, left arrow- move left, right arrow- move right ,page up- move up, page down- move down
 void keyboardListener(unsigned char key, int x, int y){
+    cout<<key<<endl;
     switch(key){
         case '1':
             cam.look_left();
@@ -196,10 +250,13 @@ void keyboardListener(unsigned char key, int x, int y){
         case '6':
             cam.tilt_clockwise();
             break;
+        case '7':
+            cam.print();
+            break;
         default:
             break;
     }
-    
+    glutPostRedisplay();
 }
 void specialKeyListener(int key, int x, int y){
     switch(key){
@@ -224,49 +281,122 @@ void specialKeyListener(int key, int x, int y){
         default:
             break;
     }
+    glutPostRedisplay();
 }
+
+void drawCheckerBox(double a, int color = 0) {
+  glBegin(GL_QUADS);
+  {
+    if (color == 0) {
+      glColor3f(0.0f, 0.0f, 0.0f); // Black
+    } else {
+      glColor3f(1.0f, 1.0f, 1.0f); // White
+    }
+    glVertex3f(0, 0, 0);
+    glVertex3f(0, a, 0);
+    glVertex3f(a, a, 0);
+    glVertex3f(a, 0, 0);
+  }
+  glEnd();
+}
+
+void drawCheckers(double a) {
+  for (int i = -40; i < 40; i++) {
+    for (int j = -40; j < 40; j++) {
+      glPushMatrix();
+      glTranslatef(i * a, j * a, 0);
+      drawCheckerBox(a, (i + j) % 2);
+      glPopMatrix();
+    }
+  }
+}
+
+void drawSquare(double a) {
+  glBegin(GL_QUADS);
+  {
+    glVertex3f(0, 0, 0);
+    glVertex3f(0, a, 0);
+    glVertex3f(a, a, 0);
+    glVertex3f(a, 0, 0);
+  }
+  glEnd();
+}
+
 
 void Display(void)
 {
-    // cout<<"Display"<<counter<<endl;
+    // // cout<<"Display"<<counter<<endl;
+    // glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    // glClearColor(0,0,0,0);
+    // glMatrixMode(GL_MODELVIEW);
+    // glLoadIdentity();
+
+    glEnable(GL_DEPTH_TEST);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+
+    gluLookAt(cam.position.x, cam.position.y, cam.position.z, cam.look.x, cam.look.y, cam.look.z, cam.up.x, cam.up.y, cam.up.z);
+
+
     counter++;
-    glClear(GL_COLOR_BUFFER_BIT);
+    // cout<<counter<<endl;
+    draw_axis();
+
+    drawCheckers(2);
+    // glClear(GL_COLOR_BUFFER_BIT);
     // glBegin(GL_LINES){
     //     glVertex2f(0.0, 0.0);
     //     glVertex2f(0.0, 0.5);
     //     glVertex2f(0.5, 0.5);
     //     glVertex2f(0.5, 0.0);
-    // };
-    glBegin(GL_QUADS);
-	{
-		glVertex3f(a, a, 0);
-		glVertex3f(a, -a, 0);
-		glVertex3f(-a, -a, 0);
-		glVertex3f(-a, a, 0);
-	}
-	glEnd();
+    // };e
+    // glBegin(GL_LINES);
+    // {
+    //     glColor3f(1,1,1);
+    //     glVertex3f(cam.position.x,cam.position.y,cam.position.z);
+    //     glVertex3f(0,0,0);
+    // }glEnd();
+
+    a = 1.0;
+
+    glColor3f(1.0,1.0,0.0);
+    glPushMatrix();
+    glTranslatef(0.0,0.0,1.0);
+    drawSquare(2);
+    glPopMatrix();
+
     glFlush();
+    glutSwapBuffers();
 
 }
 void init(void)
 {
     // cout<<"Init"<<counter<<endl;
     // counter++;
-    glClearColor(0.0, 0.0, 1.0, 0.0);
+    glClearColor(0.0, 0.0, 0.0, 0.0);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluPerspective(45.0, 1, 1, 100.0);
+}
+void idle(){
+    glutPostRedisplay();
 }
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
     glutInitWindowPosition(100, 100);
     glutInitWindowSize(400, 400);
-    glutInitDisplayMode(GLUT_DEPTH | GLUT_SINGLE | GLUT_RGB);
+    glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
     
     glutCreateWindow("Task 1");
     init();
+    glEnable(GL_DEPTH_TEST);
     glutDisplayFunc(Display);
     glutKeyboardFunc(keyboardListener);
     glutSpecialFunc(specialKeyListener);
-
+    glutIdleFunc(idle);
     glutMainLoop();
     return 0;
 }
