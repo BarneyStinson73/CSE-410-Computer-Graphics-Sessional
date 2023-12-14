@@ -17,7 +17,7 @@ using namespace std;
 
 #define CAM_INIT_POS point(10, 10, 10)
 #define CAM_MOVE_DIST 3
-#define CAM_ROTATE_ANGLE 5
+#define CAM_ROTATE_ANGLE 0.5
 #define AXIS_LEN 1000
 void keyboardListener(unsigned char key, int x, int y);
 void specialKeyListener(int key, int x, int y);
@@ -87,6 +87,9 @@ class point{
     point cross_product(point a){
         return point(y*a.z-z*a.y,z*a.x-x*a.z,x*a.y-y*a.x);
     }
+    double dot_product(point a){
+        return x*a.x+y*a.y+z*a.z;
+    }
     // friend point operator*(double constant, point const& right);
 
 };
@@ -106,6 +109,11 @@ point look_calculation(point pos,point look){
     point temp;
     temp=look-pos;
     return temp;    
+}
+point rodriguez_formula(point a,point k,double angle){
+    point temp;
+    temp=a*cos(angle)+k.cross_product(a)*sin(angle)+k*(k.dot_product(a))*(1-cos(angle));
+    return temp;
 }
 class cam_position{
     public:
@@ -167,36 +175,55 @@ class cam_position{
     }
     void look_left(){
         double angle = DEG2RAD(CAM_ROTATE_ANGLE);
-        look = look * cos(angle) - right * sin(angle);
-        right = look * sin(angle) + right * cos(angle);
+        // look = look * cos(angle) - right * sin(angle);
+        // right = look * sin(angle) + right * cos(angle);
+        point look_vector = look - position;
+        look = position + rodriguez_formula(look_vector,up,angle);
     }
     void look_right(){
         double angle = DEG2RAD(-CAM_ROTATE_ANGLE);
         // angle=angle*(-1.0);
-        look = look * cos(angle) - right * sin(angle);
-        right = look * sin(angle) + right * cos(angle);
+        // look = look * cos(angle) - right * sin(angle);
+        // right = look * sin(angle) + right * cos(angle);
+        point look_vector = look - position;
+        look = position + rodriguez_formula(look_vector,up,angle);
+        // right=rodriguez_formula(right,up,angle);
     }
     void look_up(){
         double angle = DEG2RAD(CAM_ROTATE_ANGLE);
-        look = look * cos(angle) + up * sin(angle);
-        up = look * (-sin(angle)) + up * cos(angle);
+        // look = look * cos(angle) + up * sin(angle);
+        // up = look * (-sin(angle)) + up * cos(angle);
+        point look_vector = look - position;
+        look=position+rodriguez_formula(look_vector,right,angle);
+        up=position+rodriguez_formula(up,right,angle);
     }
     void look_down(){
         double angle = DEG2RAD(-CAM_ROTATE_ANGLE);
         // angle=angle*(-1.0);
-        look = look * cos(angle) + up * sin(angle);
-        up = look * (-sin(angle)) + up * cos(angle);
+        // look = look * cos(angle) + up * sin(angle);
+        // up = look * (-sin(angle)) + up * cos(angle);
+        point look_vector = look - position;
+        look=rodriguez_formula(look_vector,right,angle);
+        up=position+rodriguez_formula(up,right,angle);
     }
     void tilt_clockwise(){
         double angle = DEG2RAD(CAM_ROTATE_ANGLE);
-        right = right * cos(angle) - up * sin(angle);
-        up = right * (sin(angle)) + up * cos(angle);
+        // right = right * cos(angle) - up * sin(angle);
+        // up = right * (sin(angle)) + up * cos(angle);
+        point look_vector = look - position;
+        point right_vector = look_vector.cross_product(up);
+        right=position+rodriguez_formula(right_vector,look,angle);
+        up=position+rodriguez_formula(up,look,angle);
     }
     void tilt_anticlockwise(){
         double angle = DEG2RAD(-CAM_ROTATE_ANGLE);
         // angle=angle*(-1.0);
-        right = right * cos(angle) - up * sin(angle);
-        up = right * (sin(angle)) + up * cos(angle);
+        // right = right * cos(angle) - up * sin(angle);
+        // up = right * (sin(angle)) + up * cos(angle);
+        point look_vector = look - position;
+        point right_vector = look_vector.cross_product(up);
+        right=position+rodriguez_formula(right_vector,look,angle);
+        up=position+rodriguez_formula(up,look,angle);
     }
     void print(){
         cout<<"up: "<<up.x<<" "<<up.y<<" "<<up.z<<endl;
@@ -387,7 +414,7 @@ int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
     glutInitWindowPosition(100, 100);
-    glutInitWindowSize(400, 400);
+    glutInitWindowSize(800, 800);
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
     
     glutCreateWindow("Task 1");
