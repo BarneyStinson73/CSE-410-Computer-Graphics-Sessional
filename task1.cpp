@@ -190,40 +190,42 @@ class cam_position{
         // right=rodriguez_formula(right,up,angle);
     }
     void look_up(){
-        double angle = DEG2RAD(CAM_ROTATE_ANGLE);
+        double angle = DEG2RAD(CAM_ROTATE_ANGLE) / 10;
         // look = look * cos(angle) + up * sin(angle);
         // up = look * (-sin(angle)) + up * cos(angle);
         point look_vector = look - position;
-        look=position+rodriguez_formula(look_vector,right,angle);
-        up=position+rodriguez_formula(up,right,angle);
+        point right_vector = look_vector.cross_product(up);
+        look=position+rodriguez_formula(look_vector,right_vector,angle);
+        up=rodriguez_formula(up,right_vector,angle);
     }
     void look_down(){
-        double angle = DEG2RAD(-CAM_ROTATE_ANGLE);
+        double angle = DEG2RAD(-CAM_ROTATE_ANGLE)/10;
         // angle=angle*(-1.0);
         // look = look * cos(angle) + up * sin(angle);
         // up = look * (-sin(angle)) + up * cos(angle);
         point look_vector = look - position;
-        look=rodriguez_formula(look_vector,right,angle);
-        up=position+rodriguez_formula(up,right,angle);
+        point right_vector = look_vector.cross_product(up);
+        look=position+rodriguez_formula(look_vector,right_vector,angle);
+        up=rodriguez_formula(up,right_vector,angle);
     }
     void tilt_clockwise(){
-        double angle = DEG2RAD(CAM_ROTATE_ANGLE);
+        double angle = DEG2RAD(CAM_ROTATE_ANGLE)/10;
         // right = right * cos(angle) - up * sin(angle);
         // up = right * (sin(angle)) + up * cos(angle);
         point look_vector = look - position;
         point right_vector = look_vector.cross_product(up);
-        right=position+rodriguez_formula(right_vector,look,angle);
-        up=position+rodriguez_formula(up,look,angle);
+        right=position+rodriguez_formula(right_vector,look_vector,angle);
+        up=rodriguez_formula(up,look_vector,angle);
     }
     void tilt_anticlockwise(){
-        double angle = DEG2RAD(-CAM_ROTATE_ANGLE);
+        double angle = DEG2RAD(-CAM_ROTATE_ANGLE)/10;
         // angle=angle*(-1.0);
         // right = right * cos(angle) - up * sin(angle);
         // up = right * (sin(angle)) + up * cos(angle);
         point look_vector = look - position;
         point right_vector = look_vector.cross_product(up);
-        right=position+rodriguez_formula(right_vector,look,angle);
-        up=position+rodriguez_formula(up,look,angle);
+        right=position+rodriguez_formula(right_vector,look_vector,angle);
+        up=rodriguez_formula(up,look_vector,angle);
     }
     void print(){
         cout<<"up: "<<up.x<<" "<<up.y<<" "<<up.z<<endl;
