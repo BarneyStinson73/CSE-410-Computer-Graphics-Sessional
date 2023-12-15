@@ -33,8 +33,9 @@ void draw_cylinder();
 double triangle_side=MAX_TRIANGLE_SIDE;
 
 double maxSphereRadius = MAX_TRIANGLE_SIDE / sqrt(3.0);
-double sphereRadius = 0;
+double sphere_radius = 0;
 int counter=0;
+double object_angle=0.0;
 class point{
     public:
     double x;
@@ -289,14 +290,20 @@ void keyboardListener(unsigned char key, int x, int y){
         case ',':
             if(triangle_side>0){
                 triangle_side=max(triangle_side-.3,0.0);
-                sphereRadius= min(MAX_TRIANGLE_SIDE/sqrt(3),sphereRadius+.3 / sqrt(3.0));
+                sphere_radius= min(MAX_TRIANGLE_SIDE/sqrt(3),sphere_radius+.3 / sqrt(3.0));
             }
             break;
         case '.':
             if(triangle_side<MAX_TRIANGLE_SIDE){
                 triangle_side=min(triangle_side+.3,MAX_TRIANGLE_SIDE);
-                sphereRadius= max(0.0,sphereRadius-.3 / sqrt(3.0));
+                sphere_radius= max(0.0,sphere_radius-.3 / sqrt(3.0));
             }
+            break;
+        case 'a':
+            object_angle-=5;
+            break;
+        case 'd':
+            object_angle+=5;
             break;
         default:
             break;
@@ -480,7 +487,7 @@ void drawCylinder(double h, double r, int segments) {
 }
 
 // double maxSphereRadius = MAX_TRIANGLE_SIDE / sqrt(3.0);
-// double sphereRadius = 1.0;
+// double sphere_radius = 1.0;
 void drawCylinders(){
 
     glColor3f(1.0f, 1.0f, 0.0f);
@@ -491,7 +498,7 @@ void drawCylinders(){
             
             glRotatef(45+i*90,0,1,0);
             glTranslatef(triangle_side/sqrt(2),0,0);
-            drawCylinder(triangle_side*sqrt(2),sphereRadius,100);
+            drawCylinder(triangle_side*sqrt(2),sphere_radius,100);
         }glPopMatrix();
         
     }
@@ -502,7 +509,7 @@ void drawCylinders(){
             glRotatef(90,1,0,0);
             glRotatef(45+i*90,0,1,0);
             glTranslatef(triangle_side/sqrt(2),0,0);
-            drawCylinder(triangle_side*sqrt(2),sphereRadius,100);
+            drawCylinder(triangle_side*sqrt(2),sphere_radius,100);
         }glPopMatrix();
         
     }
@@ -513,12 +520,73 @@ void drawCylinders(){
             glRotatef(90,0,0,1);
             glRotatef(45+i*90,0,1,0);
             glTranslatef(triangle_side/sqrt(2),0,0);
-            drawCylinder(triangle_side*sqrt(2),sphereRadius,100);
+            drawCylinder(triangle_side*sqrt(2),sphere_radius,100);
         }glPopMatrix();
 
     }
 
 }
+void drawSphereQuad(double r,int segments)
+{
+   
+    vector<vector<point>> points(segments+1);
+	
+	double x,y;
+	//generate points
+	for(int i=0;i<=segments;i++){
+		
+		for(int j=0;j<=segments;j++){
+            x = -1 + (double)i/segments*2;
+		    y = -1 + (double)j/segments*2;
+            points[i].push_back(normalize(point(x,y,1))*r);
+		}
+	}
+	//draw quads using generated points
+	for(int i=0;i<segments;i++)
+	{
+		for(int j=0;j<segments;j++)
+		{
+			glBegin(GL_QUADS);{
+				glVertex3f(points[i][j].x,points[i][j].y,points[i][j].z);
+				glVertex3f(points[i][j+1].x,points[i][j+1].y,points[i][j+1].z);
+				glVertex3f(points[i+1][j+1].x,points[i+1][j+1].y,points[i+1][j+1].z);
+				glVertex3f(points[i+1][j].x,points[i+1][j].y,points[i+1][j].z);
+			}glEnd();
+		}
+	}
+}
+
+void drawSpheres(){
+
+    for(int i=0;i<4;i++){
+        
+        glPushMatrix();{
+            if(i%2==0)glColor3f(0.0f, 1.0f, 1.0f);
+            else glColor3f(1.0f, 0.0f, 1.0f);
+            // glColor3f(0.2f, .2f, 0.2f);     
+            glRotatef(90*i,0,1,0);
+            glTranslatef(0,0,triangle_side);
+            drawSphereQuad(sphere_radius,100);
+
+        }glPopMatrix();
+
+    }
+
+    for(int i=0;i<2;i++){
+        
+        glPushMatrix();{
+            if(i%2==0)glColor3f(1.0f, 0.5f, 0.5f);
+            else glColor3f(0.5f, 1.0f, 0.5f);
+            // glColor3f(0.0f, 0.0f, 1.0f);    
+            glRotatef(90+180*i,1,0,0);
+            glTranslatef(0,0,triangle_side);
+            drawSphereQuad(sphere_radius,100);
+        }glPopMatrix();
+
+    }
+
+}
+
 void Display(void)
 {
     // // cout<<"Display"<<counter<<endl;
@@ -539,9 +607,10 @@ void Display(void)
     counter++;
     // cout<<counter<<endl;
     draw_axis();
-
+    glRotatef(object_angle, 0, 0, 1);
     // drawCheckers(2);
     draw_pyramid();
+    drawSpheres();
     // glClear(GL_COLOR_BUFFER_BIT);
     // glBegin(GL_LINES){
     //     glVertex2f(0.0, 0.0);
