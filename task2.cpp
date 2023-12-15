@@ -19,7 +19,7 @@ using namespace std;
 #define CAM_MOVE_DIST 3
 #define CAM_ROTATE_ANGLE 0.5
 #define AXIS_LEN 1000
-#define MAX_TRIANGLE_SIDE 10
+#define MAX_TRIANGLE_SIDE 10.0
 void keyboardListener(unsigned char key, int x, int y);
 void specialKeyListener(int key, int x, int y);
 void mouseListener(int button, int state, int x, int y);
@@ -33,7 +33,7 @@ void draw_cylinder();
 double triangle_side=MAX_TRIANGLE_SIDE;
 
 double maxSphereRadius = MAX_TRIANGLE_SIDE / sqrt(3.0);
-double sphereRadius = triangle_side / sqrt(3.0);
+double sphereRadius = 0;
 int counter=0;
 class point{
     public:
@@ -287,15 +287,15 @@ void keyboardListener(unsigned char key, int x, int y){
             cam.print();
             break;
         case ',':
-            if(triangle_side>=0){
-                triangle_side-=0.3;
-                sphereRadius+= 0.3 / sqrt(3.0);
+            if(triangle_side>0){
+                triangle_side=max(triangle_side-.3,0.0);
+                sphereRadius= min(MAX_TRIANGLE_SIDE/sqrt(3),sphereRadius+.3 / sqrt(3.0));
             }
             break;
         case '.':
-            if(triangle_side<=MAX_TRIANGLE_SIDE-0.3){
-                triangle_side+=0.3;
-                sphereRadius-= 0.3 / sqrt(3.0);
+            if(triangle_side<MAX_TRIANGLE_SIDE){
+                triangle_side=min(triangle_side+.3,MAX_TRIANGLE_SIDE);
+                sphereRadius= max(0.0,sphereRadius-.3 / sqrt(3.0));
             }
             break;
         default:
@@ -462,7 +462,7 @@ void drawCylinder(double h, double r, int segments) {
 
     double offset = 70.5287794*PI/180.0;
 
-    for (int i = 0; i < segments+1; i++) {
+    for (int i = 0; i <= segments+1; i++) {
         double theta = -offset/2 +  i * offset / segments;
         points.push_back(point(r * cos(theta),r * sin(theta),h/2));
         theta = -offset/2 +  (i+1) * offset / segments;
@@ -496,9 +496,6 @@ void drawCylinders(){
         
     }
 
-
-    //////////////
-
     for(int i=0;i<4;i++){
 
         glPushMatrix();{
@@ -510,8 +507,6 @@ void drawCylinders(){
         
     }
 
-
-    ///////////////
     for(int i=0;i<4;i++){
 
         glPushMatrix();{
