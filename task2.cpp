@@ -31,6 +31,9 @@ void draw_circle();
 void draw_cylinder();
 
 double triangle_side=MAX_TRIANGLE_SIDE;
+
+double maxSphereRadius = MAX_TRIANGLE_SIDE / sqrt(3.0);
+double sphereRadius = triangle_side / sqrt(3.0);
 int counter=0;
 class point{
     public:
@@ -286,11 +289,13 @@ void keyboardListener(unsigned char key, int x, int y){
         case ',':
             if(triangle_side>=0){
                 triangle_side-=0.3;
+                sphereRadius+= 0.3 / sqrt(3.0);
             }
             break;
         case '.':
             if(triangle_side<=MAX_TRIANGLE_SIDE-0.3){
                 triangle_side+=0.3;
+                sphereRadius-= 0.3 / sqrt(3.0);
             }
             break;
         default:
@@ -374,7 +379,7 @@ void draw_triangle(){
 void draw_pyramid(){
     double difference=MAX_TRIANGLE_SIDE-triangle_side;
     difference=difference/3;
-    glColor3f(1.0,1.0,0.0);
+    glColor3f(1.0,0.0,0.0);
     for(int i=0;i<4;i++){
         glPushMatrix();
         // glTranslatef(difference,difference,difference);
@@ -395,61 +400,129 @@ void draw_pyramid(){
         glPopMatrix();
     }
 }
-void draw_cylinder(){
-    double radius=MAX_TRIANGLE_SIDE/2;
-    double height=MAX_TRIANGLE_SIDE;
-    int segments=100;
-    double angle=2*PI/segments;
-    double x,y,z;
-    glColor3f(1.0,1.0,0.0);
-    for(int i=0;i<segments;i++){
-        x=radius*cos(angle*i);
-        y=radius*sin(angle*i);
-        z=0;
-        glBegin(GL_TRIANGLES);
-        {
-            glVertex3f(0,0,0);
-            glVertex3f(x,y,z);
-            glVertex3f(x,y,z+height);
-        }
-        glEnd();
+// void draw_cylinder(){
+//     double r=MAX_TRIANGLE_SIDE/2;
+//     double h=MAX_TRIANGLE_SIDE;
+//     int segments=100;
+//     double angle=2*PI/segments;
+//     double x,y,z;
+//     glColor3f(1.0,1.0,0.0);
+//     for(int i=0;i<segments;i++){
+//         x=r*cos(angle*i);
+//         y=r*sin(angle*i);
+//         z=0;
+//         glBegin(GL_TRIANGLES);
+//         {
+//             glVertex3f(0,0,0);
+//             glVertex3f(x,y,z);
+//             glVertex3f(x,y,z+h);
+//         }
+//         glEnd();
+//     }
+//     for(int i=0;i<segments;i++){
+//         x=r*cos(angle*i);
+//         y=r*sin(angle*i);
+//         z=0;
+//         glBegin(GL_TRIANGLES);
+//         {
+//             glVertex3f(0,0,0);
+//             glVertex3f(x,y,z);
+//             glVertex3f(x,y,z+h);
+//         }
+//         glEnd();
+//     }
+//     for(int i=0;i<segments;i++){
+//         x=r*cos(angle*i);
+//         y=r*sin(angle*i);
+//         z=0;
+//         glBegin(GL_TRIANGLES);
+//         {
+//             glVertex3f(0,0,0);
+//             glVertex3f(x,y,z);
+//             glVertex3f(x,y,z+h);
+//         }
+//         glEnd();
+//     }
+//     for(int i=0;i<segments;i++){
+//         x=r*cos(angle*i);
+//         y=r*sin(angle*i);
+//         z=0;
+//         glBegin(GL_TRIANGLES);
+//         {
+//             glVertex3f(0,0,0);
+//             glVertex3f(x,y,z);
+//             glVertex3f(x,y,z+h);
+//         }
+//         glEnd();
+//     }
+// }
+void drawCylinder(double h, double r, int segments) {
+
+    vector<point> points;
+
+    double offset = 70.5287794*PI/180.0;
+
+    for (int i = 0; i < segments+1; i++) {
+        double theta = -offset/2 +  i * offset / segments;
+        points.push_back(point(r * cos(theta),r * sin(theta),h/2));
+        theta = -offset/2 +  (i+1) * offset / segments;
+        points.push_back(point(r * cos(theta),r * sin(theta),-h/2));
     }
-    for(int i=0;i<segments;i++){
-        x=radius*cos(angle*i);
-        y=radius*sin(angle*i);
-        z=0;
-        glBegin(GL_TRIANGLES);
-        {
-            glVertex3f(0,0,0);
-            glVertex3f(x,y,z);
-            glVertex3f(x,y,z+height);
+
+    glBegin(GL_QUADS);
+        for (int i = 0; i < points.size()-2; i+=2) {
+            glVertex3f(points[i].x, points[i].y, points[i].z);
+            glVertex3f(points[i+1].x, points[i+1].y, points[i+1].z);
+            glVertex3f(points[i+3].x, points[i+3].y, points[i+3].z);
+            glVertex3f(points[i+2].x, points[i+2].y, points[i+2].z);
         }
-        glEnd();
+    glEnd();
+}
+
+// double maxSphereRadius = MAX_TRIANGLE_SIDE / sqrt(3.0);
+// double sphereRadius = 1.0;
+void drawCylinders(){
+
+    glColor3f(1.0f, 1.0f, 0.0f);
+
+    for(int i=0;i<4;i++){
+
+        glPushMatrix();{
+            
+            glRotatef(45+i*90,0,1,0);
+            glTranslatef(triangle_side/sqrt(2),0,0);
+            drawCylinder(triangle_side*sqrt(2),sphereRadius,100);
+        }glPopMatrix();
+        
     }
-    for(int i=0;i<segments;i++){
-        x=radius*cos(angle*i);
-        y=radius*sin(angle*i);
-        z=0;
-        glBegin(GL_TRIANGLES);
-        {
-            glVertex3f(0,0,0);
-            glVertex3f(x,y,z);
-            glVertex3f(x,y,z+height);
-        }
-        glEnd();
+
+
+    //////////////
+
+    for(int i=0;i<4;i++){
+
+        glPushMatrix();{
+            glRotatef(90,1,0,0);
+            glRotatef(45+i*90,0,1,0);
+            glTranslatef(triangle_side/sqrt(2),0,0);
+            drawCylinder(triangle_side*sqrt(2),sphereRadius,100);
+        }glPopMatrix();
+        
     }
-    for(int i=0;i<segments;i++){
-        x=radius*cos(angle*i);
-        y=radius*sin(angle*i);
-        z=0;
-        glBegin(GL_TRIANGLES);
-        {
-            glVertex3f(0,0,0);
-            glVertex3f(x,y,z);
-            glVertex3f(x,y,z+height);
-        }
-        glEnd();
+
+
+    ///////////////
+    for(int i=0;i<4;i++){
+
+        glPushMatrix();{
+            glRotatef(90,0,0,1);
+            glRotatef(45+i*90,0,1,0);
+            glTranslatef(triangle_side/sqrt(2),0,0);
+            drawCylinder(triangle_side*sqrt(2),sphereRadius,100);
+        }glPopMatrix();
+
     }
+
 }
 void Display(void)
 {
@@ -472,7 +545,7 @@ void Display(void)
     // cout<<counter<<endl;
     draw_axis();
 
-    drawCheckers(2);
+    // drawCheckers(2);
     draw_pyramid();
     // glClear(GL_COLOR_BUFFER_BIT);
     // glBegin(GL_LINES){
@@ -487,7 +560,7 @@ void Display(void)
     //     glVertex3f(cam.position.x,cam.position.y,cam.position.z);
     //     glVertex3f(0,0,0);
     // }glEnd();
-    draw_cylinder();
+    drawCylinders();
     a = 1.0;
 
     // glColor3f(1.0,1.0,0.0);
