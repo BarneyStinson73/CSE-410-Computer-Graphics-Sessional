@@ -38,6 +38,7 @@ void drawCone(double radius,double height,int segments);
 void drawCylinder(double h, double r, int segments);
 
 int counter=0;
+bool simulation=false;
 double object_angle = 0.0;
 class point{
     public:
@@ -417,9 +418,11 @@ void keyboardListener(unsigned char key, int x, int y){
             break;
 
         case 'i':
+        if(simulation==false)
             ball.move_sphere_forward();
             break;
         case 'k':
+        if(simulation==false)
             ball.move_sphere_backward();
             break;
         case 'j':
@@ -427,6 +430,9 @@ void keyboardListener(unsigned char key, int x, int y){
             break;
         case 'l':
             ball.angle-=5;
+            break;
+        case ' ':
+            simulation=!simulation;
             break;
         default:
             break;
