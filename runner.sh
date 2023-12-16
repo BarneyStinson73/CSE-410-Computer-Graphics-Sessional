@@ -3,6 +3,11 @@
 
 # ./task1.exe
 
-g++ task2.cpp -o task2.exe -lGL -lGLU -lglut
+# g++ task2.cpp -o task2.exe -lGL -lGLU -lglut
 
-./task2.exe
+# ./task2.exe
+
+
+g++ task3.cpp -o task3.exe -lGL -lGLU -lglut
+
+./task3.exe
