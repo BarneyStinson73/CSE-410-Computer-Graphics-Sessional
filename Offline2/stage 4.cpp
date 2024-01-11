@@ -16,6 +16,10 @@
 using namespace std;
 
 #define PI 3.14159265358979323846
+
+float z_calculate(float x,float x1,float z1,float x2,float z2);
+float y_calculate(float x,float x1,float y1,float x2,float y2);
+float x_calculate(float y,float y1,float x1,float y2,float x2);
 class Point{
 public:
     float x,y,z;
@@ -183,11 +187,13 @@ class triangle{
     public:
     single_matrix p1,p2,p3;
     int red,green,blue;
+    bool point1,point2,point3;
     float top_scaline,bottom_scaline;
     triangle(single_matrix p1,single_matrix p2,single_matrix p3){
         this->p1 = p1;
         this->p2 = p2;
         this->p3 = p3;
+        point1=point2=point3=false;
     }
     void print(){
         p1.print();
@@ -433,7 +439,57 @@ int main(){
             bottom_intersecting_row++;
         }
         bottom_intersecting_row++;
-        
+        // for(int r=top_intersecting_row;r<=bottom_intersecting_row;r++){
+        //     int left_intersecting_col=0,right_intersecting_col;
+            
+        // }
+        for(int r=top_intersecting_row;r<=bottom_intersecting_row;r++){
+            float y_val=top_y-r*dy;
+            int tt=0;
+            float x[2],z[2];
+            if((y_val-triangles[i].p1.m[1][0]>0 && y_val-triangles[i].p2.m[1][0]<0) ||(y_val-triangles[i].p1.m[1][0]<0  && y_val-triangles[i].p2.m[1][0]>0)){
+                triangles[i].point1=true;
+                triangles[i].point2=true;
+            }
+            else if((y_val-triangles[i].p1.m[1][0]>0 && y_val-triangles[i].p3.m[1][0]<0) ||(y_val-triangles[i].p1.m[1][0]<0  && y_val-triangles[i].p3.m[1][0]>0)){
+                triangles[i].point1=true;
+                triangles[i].point3=true;
+            
+            }
+            else if((y_val-triangles[i].p2.m[1][0]>0 && y_val-triangles[i].p3.m[1][0]<0) ||(y_val-triangles[i].p2.m[1][0]<0  && y_val-triangles[i].p3.m[1][0]>0)){
+                triangles[i].point2=true;
+                triangles[i].point3=true;
+            }
+            else continue;
+            float x1,x2,z1,z2;
+            if(triangles[i].point1 && triangles[i].point2){
+                x1=x_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[0][0],triangles[i].p2.m[1][0],triangles[i].p2.m[0][0]);
+                z1=z_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[2][0],triangles[i].p2.m[1][0],triangles[i].p2.m[2][0]);
+            }
+            else if(triangles[i].point1 && triangles[i].point3){
+                x1=x_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[0][0],triangles[i].p3.m[1][0],triangles[i].p3.m[0][0]);
+                z1=z_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[2][0],triangles[i].p3.m[1][0],triangles[i].p3.m[2][0]);
+            }
+            else if(triangles[i].point2 && triangles[i].point3){
+                x1=x_calculate(y_val,triangles[i].p2.m[1][0],triangles[i].p2.m[0][0],triangles[i].p3.m[1][0],triangles[i].p3.m[0][0]);
+                z1=z_calculate(y_val,triangles[i].p2.m[1][0],triangles[i].p2.m[2][0],triangles[i].p3.m[1][0],triangles[i].p3.m[2][0]);
+            }
+        }
     }
 
+}
+float y_calculate(float x,float x1,float y1,float x2,float y2){
+    float y;
+    y=((y2-y1)/(x2-x1))*(x-x1)+y1;
+    return y;
+}
+float z_calculate(float x,float x1,float z1,float x2,float z2){
+    float z;
+    z=((z2-z1)/(x2-x1))*(x-x1)+z1;
+    return z;
+}
+float x_calculate(float y,float y1,float x1,float y2,float x2){
+    float x;
+    x=((x2-x1)/(y2-y1))*(y-y1)+x1;
+    return x;
 }
