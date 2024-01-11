@@ -188,7 +188,8 @@ class triangle{
     single_matrix p1,p2,p3;
     int red,green,blue;
     bool point1,point2,point3;
-    float top_scaline,bottom_scaline;
+    float top_scaline,bottom_scaline,left_scaline,right_scaline;
+
     triangle(single_matrix p1,single_matrix p2,single_matrix p3){
         this->p1 = p1;
         this->p2 = p2;
@@ -386,7 +387,7 @@ int main(){
     
     int width,height;
     std::cin>>width>>height;
-    std::cout<<width<<" "<<height<<endl;
+    // std::cout<<width<<" "<<height<<endl;
 
     // initialize the z-buffer and frame buffer
     float right_limit,left_limit,top_limit,bottom_limit;
@@ -435,7 +436,7 @@ int main(){
         }
         bottom_intersecting_row=top_intersecting_row;
         while(true){
-            if(top_y-bottom_intersecting_row*dy<triangles[i].bottom_scaline) break;
+            if(top_y-bottom_intersecting_row*dy<=triangles[i].bottom_scaline) break;
             bottom_intersecting_row++;
         }
         bottom_intersecting_row++;
@@ -448,36 +449,72 @@ int main(){
             int tt=0;
             float x[2],z[2];
             if((y_val-triangles[i].p1.m[1][0]>0 && y_val-triangles[i].p2.m[1][0]<0) ||(y_val-triangles[i].p1.m[1][0]<0  && y_val-triangles[i].p2.m[1][0]>0)){
-                triangles[i].point1=true;
-                triangles[i].point2=true;
+                // triangles[i].point1=true;
+                // triangles[i].point2=true;
+                x[tt]=x_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[0][0],triangles[i].p2.m[1][0],triangles[i].p2.m[0][0]);
+                z[tt]=z_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[2][0],triangles[i].p2.m[1][0],triangles[i].p2.m[2][0]);
+                tt++;
             }
-            else if((y_val-triangles[i].p1.m[1][0]>0 && y_val-triangles[i].p3.m[1][0]<0) ||(y_val-triangles[i].p1.m[1][0]<0  && y_val-triangles[i].p3.m[1][0]>0)){
-                triangles[i].point1=true;
-                triangles[i].point3=true;
-            
+            if((y_val-triangles[i].p1.m[1][0]>0 && y_val-triangles[i].p3.m[1][0]<0) ||(y_val-triangles[i].p1.m[1][0]<0  && y_val-triangles[i].p3.m[1][0]>0)){
+                // triangles[i].point1=true;
+                // triangles[i].point3=true;
+                x[tt]=x_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[0][0],triangles[i].p3.m[1][0],triangles[i].p3.m[0][0]);
+                z[tt]=z_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[2][0],triangles[i].p3.m[1][0],triangles[i].p3.m[2][0]);
+                tt++;
             }
-            else if((y_val-triangles[i].p2.m[1][0]>0 && y_val-triangles[i].p3.m[1][0]<0) ||(y_val-triangles[i].p2.m[1][0]<0  && y_val-triangles[i].p3.m[1][0]>0)){
-                triangles[i].point2=true;
-                triangles[i].point3=true;
+            if((y_val-triangles[i].p2.m[1][0]>0 && y_val-triangles[i].p3.m[1][0]<0) ||(y_val-triangles[i].p2.m[1][0]<0  && y_val-triangles[i].p3.m[1][0]>0)){
+                // triangles[i].point2=true;
+                // triangles[i].point3=true;
+                x[tt]=x_calculate(y_val,triangles[i].p2.m[1][0],triangles[i].p2.m[0][0],triangles[i].p3.m[1][0],triangles[i].p3.m[0][0]);
+                z[tt]=z_calculate(y_val,triangles[i].p2.m[1][0],triangles[i].p2.m[2][0],triangles[i].p3.m[1][0],triangles[i].p3.m[2][0]);
+                tt++;
             }
-            else continue;
-            float x1,x2,z1,z2;
-            if(triangles[i].point1 && triangles[i].point2){
-                x1=x_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[0][0],triangles[i].p2.m[1][0],triangles[i].p2.m[0][0]);
-                z1=z_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[2][0],triangles[i].p2.m[1][0],triangles[i].p2.m[2][0]);
+            if(x[1]>x[0]){
+                triangles[i].left_scaline=x[0];
+                triangles[i].right_scaline=x[1];
             }
-            else if(triangles[i].point1 && triangles[i].point3){
-                x1=x_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[0][0],triangles[i].p3.m[1][0],triangles[i].p3.m[0][0]);
-                z1=z_calculate(y_val,triangles[i].p1.m[1][0],triangles[i].p1.m[2][0],triangles[i].p3.m[1][0],triangles[i].p3.m[2][0]);
+            else if(x[1]<x[0]){
+                triangles[i].left_scaline=x[1];
+                triangles[i].right_scaline=x[0];
             }
-            else if(triangles[i].point2 && triangles[i].point3){
-                x1=x_calculate(y_val,triangles[i].p2.m[1][0],triangles[i].p2.m[0][0],triangles[i].p3.m[1][0],triangles[i].p3.m[0][0]);
-                z1=z_calculate(y_val,triangles[i].p2.m[1][0],triangles[i].p2.m[2][0],triangles[i].p3.m[1][0],triangles[i].p3.m[2][0]);
+            else{
+                triangles[i].left_scaline=x[0];
+                triangles[i].right_scaline=x[0];
+            }
+            int left_intersecting_column=0,right_intersecting_column;
+            while(true){
+                if(left_x+left_intersecting_column*dx<=triangles[i].left_scaline) break;
+                left_intersecting_column++;
+            }
+            right_intersecting_column=left_intersecting_column;
+            while(true){
+                if(left_x+right_intersecting_column*dx<=triangles[i].right_scaline) break;
+                right_intersecting_column++;
+            }
+            right_intersecting_column++;
+            for(int ww=left_intersecting_column;ww<right_intersecting_column;ww++){
+                float x_val=left_x+ww*dx;
+                float z_val=z_calculate(x_val,x[0],z[0],x[1],z[1]);
+                if(z_val<z_buffer[ww][r] && z_val>-1.0 && z_val<1.0){
+                    z_buffer[ww][r]=z_val;
+                    image.set_pixel(ww,r,triangles[i].red,triangles[i].green,triangles[i].blue);
+                }
             }
         }
     }
+    for(int i=0;i<width;i++){
+        for(int j=0;j<height;j++){
+            if(z_buffer[i][j]!=1.0){
+                std::cout<<z_buffer[i][j]<<"     ";
+            }
+        }
+        std::cout<<endl;
+    }
 
 }
+
+
+
 float y_calculate(float x,float x1,float y1,float x2,float y2){
     float y;
     y=((y2-y1)/(x2-x1))*(x-x1)+y1;
