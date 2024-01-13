@@ -1,4 +1,1005 @@
-0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.979798     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     0.952862     
+triangle 0
+top row 213
+bottom row 250
+left int col250
+right int col251
+left int col250
+right int col252
+left int col250
+right int col253
+left int col250
+right int col254
+left int col250
+right int col255
+left int col250
+right int col256
+left int col250
+right int col257
+left int col250
+right int col258
+left int col250
+right int col259
+left int col250
+right int col260
+left int col250
+right int col261
+left int col250
+right int col262
+left int col250
+right int col263
+left int col250
+right int col264
+left int col250
+right int col265
+left int col250
+right int col266
+left int col250
+right int col267
+left int col250
+right int col268
+left int col250
+right int col269
+left int col250
+right int col270
+left int col250
+right int col271
+left int col250
+right int col272
+left int col250
+right int col273
+left int col250
+right int col274
+left int col250
+right int col275
+left int col250
+right int col276
+left int col250
+right int col277
+left int col250
+right int col278
+left int col250
+right int col279
+left int col250
+right int col280
+left int col250
+right int col281
+left int col250
+right int col282
+left int col250
+right int col283
+left int col250
+right int col284
+left int col250
+right int col285
+left int col250
+right int col286
+left int col250
+right int col287
+triangle 1
+top row 207
+bottom row 250
+left int col250
+right int col250
+left int col250
+right int col251
+left int col250
+right int col252
+left int col250
+right int col253
+left int col250
+right int col254
+left int col250
+right int col255
+left int col250
+right int col256
+left int col250
+right int col257
+left int col250
+right int col258
+left int col250
+right int col259
+left int col250
+right int col260
+left int col250
+right int col261
+left int col250
+right int col262
+left int col250
+right int col263
+left int col250
+right int col264
+left int col250
+right int col265
+left int col250
+right int col266
+left int col250
+right int col267
+left int col250
+right int col268
+left int col250
+right int col269
+left int col250
+right int col270
+left int col250
+right int col271
+left int col250
+right int col272
+left int col250
+right int col273
+left int col250
+right int col274
+left int col250
+right int col275
+left int col250
+right int col276
+left int col250
+right int col277
+left int col250
+right int col278
+left int col250
+right int col279
+left int col250
+right int col280
+left int col250
+right int col281
+left int col250
+right int col282
+left int col250
+right int col283
+left int col250
+right int col284
+left int col250
+right int col285
+left int col250
+right int col286
+left int col250
+right int col287
+left int col250
+right int col288
+left int col250
+right int col289
+left int col250
+right int col290
+left int col250
+right int col291
+left int col250
+right int col292
+triangle 2
+top row 151
+bottom row 250
+left int col449
+right int col449
+left int col449
+right int col450
+left int col449
+right int col451
+left int col449
+right int col452
+left int col449
+right int col453
+left int col449
+right int col454
+left int col449
+right int col455
+left int col449
+right int col456
+left int col449
+right int col457
+left int col449
+right int col458
+left int col449
+right int col459
+left int col449
+right int col460
+left int col449
+right int col461
+left int col449
+right int col462
+left int col449
+right int col463
+left int col449
+right int col464
+left int col449
+right int col465
+left int col449
+right int col466
+left int col449
+right int col467
+left int col449
+right int col468
+left int col449
+right int col469
+left int col449
+right int col470
+left int col449
+right int col471
+left int col449
+right int col472
+left int col449
+right int col473
+left int col449
+right int col474
+left int col449
+right int col475
+left int col449
+right int col476
+left int col449
+right int col477
+left int col449
+right int col478
+left int col449
+right int col479
+left int col449
+right int col480
+left int col449
+right int col481
+left int col449
+right int col482
+left int col449
+right int col483
+left int col449
+right int col484
+left int col449
+right int col485
+left int col449
+right int col486
+left int col449
+right int col487
+left int col449
+right int col488
+left int col449
+right int col489
+left int col449
+right int col490
+left int col449
+right int col491
+left int col449
+right int col492
+left int col449
+right int col493
+left int col449
+right int col494
+left int col449
+right int col495
+left int col449
+right int col496
+left int col449
+right int col497
+left int col449
+right int col498
+left int col449
+right int col499
+left int col449
+right int col500
+left int col449
+right int col501
+left int col449
+right int col502
+left int col449
+right int col503
+left int col449
+right int col504
+left int col449
+right int col505
+left int col449
+right int col506
+left int col449
+right int col507
+left int col449
+right int col508
+left int col449
+right int col509
+left int col449
+right int col510
+left int col449
+right int col511
+left int col449
+right int col512
+left int col449
+right int col513
+left int col449
+right int col514
+left int col449
+right int col515
+left int col449
+right int col516
+left int col449
+right int col517
+left int col449
+right int col518
+left int col449
+right int col519
+left int col449
+right int col520
+left int col449
+right int col521
+left int col449
+right int col522
+left int col449
+right int col523
+left int col449
+right int col524
+left int col449
+right int col525
+left int col449
+right int col526
+left int col449
+right int col527
+left int col449
+right int col528
+left int col449
+right int col529
+left int col449
+right int col530
+left int col449
+right int col531
+left int col449
+right int col532
+left int col449
+right int col533
+left int col449
+right int col534
+left int col449
+right int col535
+left int col449
+right int col536
+left int col449
+right int col537
+left int col449
+right int col538
+left int col449
+right int col539
+left int col449
+right int col540
+left int col449
+right int col541
+left int col449
+right int col542
+left int col449
+right int col543
+left int col449
+right int col544
+left int col449
+right int col545
+left int col449
+right int col546
+left int col449
+right int col547
+triangle 3
+top row 101
+bottom row 250
+left int col547
+right int col548
+left int col546
+right int col548
+left int col545
+right int col548
+left int col544
+right int col548
+left int col543
+right int col548
+left int col542
+right int col548
+left int col541
+right int col548
+left int col540
+right int col548
+left int col539
+right int col548
+left int col538
+right int col548
+left int col537
+right int col548
+left int col536
+right int col548
+left int col535
+right int col548
+left int col534
+right int col548
+left int col533
+right int col548
+left int col532
+right int col548
+left int col531
+right int col548
+left int col530
+right int col548
+left int col529
+right int col548
+left int col528
+right int col548
+left int col527
+right int col548
+left int col526
+right int col548
+left int col525
+right int col548
+left int col524
+right int col548
+left int col523
+right int col548
+left int col522
+right int col548
+left int col521
+right int col548
+left int col520
+right int col548
+left int col519
+right int col548
+left int col518
+right int col548
+left int col517
+right int col548
+left int col516
+right int col548
+left int col515
+right int col548
+left int col514
+right int col548
+left int col513
+right int col548
+left int col512
+right int col548
+left int col511
+right int col548
+left int col510
+right int col548
+left int col509
+right int col548
+left int col508
+right int col548
+left int col507
+right int col548
+left int col506
+right int col548
+left int col505
+right int col548
+left int col504
+right int col548
+left int col503
+right int col548
+left int col502
+right int col548
+left int col501
+right int col548
+left int col500
+right int col548
+left int col499
+right int col548
+left int col498
+right int col548
+left int col497
+right int col548
+left int col496
+right int col548
+left int col495
+right int col548
+left int col494
+right int col548
+left int col493
+right int col548
+left int col492
+right int col548
+left int col491
+right int col548
+left int col490
+right int col548
+left int col489
+right int col548
+left int col488
+right int col548
+left int col487
+right int col548
+left int col486
+right int col548
+left int col485
+right int col548
+left int col484
+right int col548
+left int col483
+right int col548
+left int col482
+right int col548
+left int col481
+right int col548
+left int col480
+right int col548
+left int col479
+right int col548
+left int col478
+right int col548
+left int col477
+right int col548
+left int col476
+right int col548
+left int col475
+right int col548
+left int col474
+right int col548
+left int col473
+right int col548
+left int col472
+right int col548
+left int col471
+right int col548
+left int col470
+right int col548
+left int col469
+right int col548
+left int col468
+right int col548
+left int col467
+right int col548
+left int col466
+right int col548
+left int col465
+right int col548
+left int col464
+right int col548
+left int col463
+right int col548
+left int col462
+right int col548
+left int col461
+right int col548
+left int col460
+right int col548
+left int col459
+right int col548
+left int col458
+right int col548
+left int col457
+right int col548
+left int col456
+right int col548
+left int col455
+right int col548
+left int col454
+right int col548
+left int col453
+right int col548
+left int col452
+right int col548
+left int col451
+right int col548
+left int col450
+right int col548
+left int col449
+right int col548
+left int col448
+right int col548
+left int col447
+right int col548
+left int col446
+right int col548
+left int col445
+right int col548
+left int col444
+right int col548
+left int col443
+right int col548
+left int col442
+right int col548
+left int col441
+right int col548
+left int col440
+right int col548
+left int col439
+right int col548
+left int col438
+right int col548
+left int col437
+right int col548
+left int col436
+right int col548
+left int col435
+right int col548
+left int col434
+right int col548
+left int col433
+right int col548
+left int col432
+right int col548
+left int col431
+right int col548
+left int col430
+right int col548
+left int col429
+right int col548
+left int col428
+right int col548
+left int col427
+right int col548
+left int col426
+right int col548
+left int col425
+right int col548
+left int col424
+right int col548
+left int col423
+right int col548
+left int col422
+right int col548
+left int col421
+right int col548
+left int col420
+right int col548
+left int col419
+right int col548
+left int col418
+right int col548
+left int col417
+right int col548
+left int col416
+right int col548
+left int col415
+right int col548
+left int col414
+right int col548
+left int col413
+right int col548
+left int col412
+right int col548
+left int col411
+right int col548
+left int col410
+right int col548
+left int col409
+right int col548
+left int col408
+right int col548
+left int col407
+right int col548
+left int col406
+right int col548
+left int col405
+right int col548
+left int col404
+right int col548
+left int col403
+right int col548
+left int col402
+right int col548
+left int col401
+right int col548
+left int col400
+right int col548
+left int col399
+right int col548
+triangle 4
+top row 131
+bottom row 250
+left int col368
+right int col369
+left int col367
+right int col369
+left int col366
+right int col369
+left int col365
+right int col369
+left int col364
+right int col369
+left int col363
+right int col369
+left int col362
+right int col369
+left int col361
+right int col369
+left int col360
+right int col369
+left int col359
+right int col369
+left int col358
+right int col369
+left int col357
+right int col369
+left int col356
+right int col369
+left int col355
+right int col369
+left int col354
+right int col369
+left int col353
+right int col369
+left int col352
+right int col369
+left int col351
+right int col369
+left int col350
+right int col369
+left int col349
+right int col369
+left int col348
+right int col369
+left int col347
+right int col369
+left int col346
+right int col369
+left int col345
+right int col369
+left int col344
+right int col369
+left int col343
+right int col369
+left int col342
+right int col369
+left int col341
+right int col369
+left int col340
+right int col369
+left int col339
+right int col369
+left int col338
+right int col369
+left int col337
+right int col369
+left int col336
+right int col369
+left int col335
+right int col369
+left int col334
+right int col369
+left int col333
+right int col369
+left int col332
+right int col369
+left int col331
+right int col369
+left int col330
+right int col369
+left int col329
+right int col369
+left int col328
+right int col369
+left int col327
+right int col369
+left int col326
+right int col369
+left int col325
+right int col369
+left int col324
+right int col369
+left int col323
+right int col369
+left int col322
+right int col369
+left int col321
+right int col369
+left int col320
+right int col369
+left int col319
+right int col369
+left int col318
+right int col369
+left int col317
+right int col369
+left int col316
+right int col369
+left int col315
+right int col369
+left int col314
+right int col369
+left int col313
+right int col369
+left int col312
+right int col369
+left int col311
+right int col369
+left int col311
+right int col369
+left int col309
+right int col369
+left int col308
+right int col369
+left int col308
+right int col369
+left int col306
+right int col369
+left int col306
+right int col369
+left int col304
+right int col369
+left int col304
+right int col369
+left int col302
+right int col369
+left int col301
+right int col369
+left int col300
+right int col369
+left int col299
+right int col369
+left int col299
+right int col369
+left int col297
+right int col369
+left int col297
+right int col369
+left int col295
+right int col369
+left int col295
+right int col369
+left int col293
+right int col369
+left int col292
+right int col369
+left int col292
+right int col369
+left int col290
+right int col369
+left int col290
+right int col369
+left int col288
+right int col369
+left int col288
+right int col369
+left int col286
+right int col369
+left int col285
+right int col369
+left int col285
+right int col369
+left int col283
+right int col369
+left int col283
+right int col369
+left int col281
+right int col369
+left int col281
+right int col369
+left int col279
+right int col369
+left int col278
+right int col369
+left int col277
+right int col369
+left int col276
+right int col369
+left int col276
+right int col369
+left int col274
+right int col369
+left int col274
+right int col369
+left int col272
+right int col369
+left int col271
+right int col369
+left int col270
+right int col369
+left int col269
+right int col369
+left int col269
+right int col369
+left int col267
+right int col369
+left int col267
+right int col369
+left int col265
+right int col369
+left int col265
+right int col369
+left int col263
+right int col369
+left int col262
+right int col369
+left int col262
+right int col369
+left int col260
+right int col369
+left int col260
+right int col369
+left int col258
+right int col369
+left int col258
+right int col369
+left int col256
+right int col369
+left int col255
+right int col369
+left int col255
+right int col369
+left int col253
+right int col369
+left int col253
+right int col369
+left int col251
+right int col369
+left int col251
+right int col369
+triangle 5
+top row 205
+bottom row 250
+left int col340
+right int col341
+left int col340
+right int col342
+left int col340
+right int col343
+left int col340
+right int col344
+left int col340
+right int col345
+left int col340
+right int col346
+left int col340
+right int col347
+left int col340
+right int col348
+left int col340
+right int col349
+left int col340
+right int col350
+left int col340
+right int col351
+left int col340
+right int col352
+left int col340
+right int col353
+left int col340
+right int col354
+left int col340
+right int col355
+left int col340
+right int col356
+left int col340
+right int col357
+left int col340
+right int col358
+left int col340
+right int col359
+left int col340
+right int col360
+left int col340
+right int col361
+left int col340
+right int col362
+left int col340
+right int col363
+left int col340
+right int col364
+left int col340
+right int col365
+left int col340
+right int col366
+left int col340
+right int col367
+left int col340
+right int col368
+left int col340
+right int col369
+left int col340
+right int col370
+left int col340
+right int col371
+left int col340
+right int col372
+left int col340
+right int col373
+left int col340
+right int col374
+left int col340
+right int col375
+left int col340
+right int col376
+left int col340
+right int col377
+left int col340
+right int col378
+left int col340
+right int col379
+left int col340
+right int col380
+left int col340
+right int col381
+left int col340
+right int col382
+left int col340
+right int col383
+left int col340
+right int col384
+left int col340
+right int col385
 
 
 
@@ -150,351 +1151,352 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.983051     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     0.99322     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.932203     
+0.932203     0.932203     
+0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.966102     0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.966102     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     
+0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     0.932203     

@@ -195,6 +195,7 @@ class triangle{
         this->p2 = p2;
         this->p3 = p3;
         point1=point2=point3=false;
+        this->set_color();
     }
     void print(){
         p1.print();
@@ -422,6 +423,7 @@ int main(){
 
     // apply procedure for each triangle
     for(int i=0;i<triangles.size();i++){
+        cout<<"triangle "<<i<<endl;
         float temp=max(triangles[i].p1.m[1][0],triangles[i].p2.m[1][0],triangles[i].p3.m[1][0]);
         if(temp>top_y) temp=top_y;
         triangles[i].top_scaline=temp;
@@ -439,12 +441,9 @@ int main(){
             if(top_y-bottom_intersecting_row*dy<=triangles[i].bottom_scaline) break;
             bottom_intersecting_row++;
         }
-        bottom_intersecting_row++;
-        // for(int r=top_intersecting_row;r<=bottom_intersecting_row;r++){
-        //     int left_intersecting_col=0,right_intersecting_col;
-            
-        // }
-        for(int r=top_intersecting_row;r<=bottom_intersecting_row;r++){
+        cout<<"top row "<<top_intersecting_row<<endl;
+        cout<<"bottom row "<<bottom_intersecting_row<<endl; 
+        for(int r=top_intersecting_row;r<bottom_intersecting_row;r++){
             float y_val=top_y-r*dy;
             int tt=0;
             float x[2],z[2];
@@ -483,17 +482,20 @@ int main(){
             }
             int left_intersecting_column=0,right_intersecting_column;
             while(true){
-                if(left_x+left_intersecting_column*dx<=triangles[i].left_scaline) break;
+                if(left_x+left_intersecting_column*dx>=triangles[i].left_scaline) break;
                 left_intersecting_column++;
             }
             right_intersecting_column=left_intersecting_column;
             while(true){
-                if(left_x+right_intersecting_column*dx<=triangles[i].right_scaline) break;
+                if(left_x+right_intersecting_column*dx>=triangles[i].right_scaline) break;
                 right_intersecting_column++;
             }
-            right_intersecting_column++;
+            // right_intersecting_column++;
+            cout<<"left int col"<<left_intersecting_column<<endl;
+            cout<<"right int col"<<right_intersecting_column<<endl;
             for(int ww=left_intersecting_column;ww<right_intersecting_column;ww++){
                 float x_val=left_x+ww*dx;
+                if(x_val<left_limit || x_val>right_limit) continue;
                 float z_val=z_calculate(x_val,x[0],z[0],x[1],z[1]);
                 if(z_val<z_buffer[ww][r] && z_val>-1.0 && z_val<1.0){
                     z_buffer[ww][r]=z_val;
@@ -510,7 +512,7 @@ int main(){
         }
         std::cout<<endl;
     }
-
+    image.save_image("out.bmp");
 }
 
 
