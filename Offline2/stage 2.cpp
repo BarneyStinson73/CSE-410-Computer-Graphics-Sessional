@@ -126,10 +126,11 @@ class single_matrix{
         return m3;
     }
     void print(){
-        for(int i = 0; i < 4; i++){
+        double t=0.0;
+        for(int i = 0; i < 3; i++){
             for(int j = 0; j < 1; j++){
-                if(abs(m[i][j])>=0.0001) cout << setprecision(7)<< m[i][j] << " ";
-                else cout<<"0.00 ";
+                if(abs(m[i][j])>=0.0001) cout <<fixed<< setprecision(7)<< m[i][j] << " ";
+                else cout<<fixed<<setprecision(7)<<t<<" ";
             }
             
         }
@@ -173,7 +174,6 @@ single_matrix multiply(Matrix m1,single_matrix m2){
     return m3;
 }
 int main(){
-    cout<<M_PI<<endl;
     ifstream in("scene.txt");
     streambuf *cinbuf=cin.rdbuf();
     cin.rdbuf(in.rdbuf());
@@ -253,6 +253,7 @@ int main(){
             p1.print();
             p2.print();
             p3.print();
+            cout<<endl;
             // cout<<"a triangle"<<endl;
            
         }
@@ -314,4 +315,7 @@ int main(){
 
     cin.rdbuf(cinbuf);
     cout.rdbuf(coutbuf);
+    in.close();
+    out.close();
+    
 }

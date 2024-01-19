@@ -1,4 +1,4 @@
 
-g++ "stage 4".cpp -o task3.exe
+g++ "stage 1".cpp -o task3.exe
 
 ./task3.exe

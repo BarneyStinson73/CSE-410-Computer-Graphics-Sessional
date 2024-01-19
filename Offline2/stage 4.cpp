@@ -131,10 +131,11 @@ class single_matrix{
         return m3;
     }
     void print(){
+        double t=0.0;
         for(int i = 0; i < 4; i++){
             for(int j = 0; j < 1; j++){
                    if(abs(m[i][j])>=0.0001) std::cout << setprecision(7)<< m[i][j] << " ";
-                   else std::cout<<"0.00 ";
+                   else std::cout<<fixed<<setprecision(7)<<t<<" ";
             }
             
         }
@@ -219,7 +220,7 @@ float min(float a,float b,float c){
     else return c;
 }
 int main(){
-    std::cout<<M_PI<<endl;
+    // std::cout<<M_PI<<endl;
     ifstream in("scene.txt");
     streambuf *cinbuf=std::cin.rdbuf();
     std::cin.rdbuf(in.rdbuf());
@@ -423,7 +424,7 @@ int main(){
 
     // apply procedure for each triangle
     for(int i=0;i<triangles.size();i++){
-        cout<<"triangle "<<i<<endl;
+        // cout<<"triangle "<<i<<endl;
         float temp=max(triangles[i].p1.m[1][0],triangles[i].p2.m[1][0],triangles[i].p3.m[1][0]);
         if(temp>top_y) temp=top_y;
         triangles[i].top_scaline=temp;
@@ -441,8 +442,8 @@ int main(){
             if(top_y-bottom_intersecting_row*dy<=triangles[i].bottom_scaline) break;
             bottom_intersecting_row++;
         }
-        cout<<"top row "<<top_intersecting_row<<endl;
-        cout<<"bottom row "<<bottom_intersecting_row<<endl; 
+        // cout<<"top row "<<top_intersecting_row<<endl;
+        // cout<<"bottom row "<<bottom_intersecting_row<<endl; 
         for(int r=top_intersecting_row;r<bottom_intersecting_row;r++){
             float y_val=top_y-r*dy;
             int tt=0;
@@ -491,8 +492,8 @@ int main(){
                 right_intersecting_column++;
             }
             // right_intersecting_column++;
-            cout<<"left int col"<<left_intersecting_column<<endl;
-            cout<<"right int col"<<right_intersecting_column<<endl;
+            // cout<<"left int col"<<left_intersecting_column<<endl;
+            // cout<<"right int col"<<right_intersecting_column<<endl;
             for(int ww=left_intersecting_column;ww<right_intersecting_column;ww++){
                 float x_val=left_x+ww*dx;
                 if(x_val<left_limit || x_val>right_limit) continue;
@@ -513,6 +514,12 @@ int main(){
         std::cout<<endl;
     }
     image.save_image("out.bmp");
+    //free the dynamically allocated memory for z buffer
+    for(int i=0;i<width;i++){
+        delete[] z_buffer[i];
+    }
+    delete[] z_buffer;
+    
 }
 
 

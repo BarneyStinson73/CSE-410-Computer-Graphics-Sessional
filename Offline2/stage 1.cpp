@@ -79,8 +79,8 @@ public:
     
     void print(){
         for(int i = 0; i < 4; i++){
-            for(int j = 0; j < 4; j++){
-                    cout << m[i][j] << " ";
+            for(int j = 0; j < 3; j++){
+                    cout << fixed<<setprecision(7)<<m[i][j] << " ";
             }
             cout << endl;
         }
@@ -126,9 +126,9 @@ class single_matrix{
         return m3;
     }
     void print(){
-        for(int i = 0; i < 4; i++){
+        for(int i = 0; i < 3; i++){
             for(int j = 0; j < 1; j++){
-                    cout << setprecision(7)<< float(m[i][j]) << " ";
+                    cout <<fixed<< setprecision(7)<< float(m[i][j]) << " ";
             }
             
         }
@@ -172,7 +172,6 @@ single_matrix multiply(Matrix m1,single_matrix m2){
     return m3;
 }
 int main(){
-    cout<<M_PI<<endl;
     ifstream in("scene.txt");
     streambuf *cinbuf=cin.rdbuf();
     cin.rdbuf(in.rdbuf());
@@ -189,12 +188,12 @@ int main(){
     Point eye = Point(points[0][0],points[0][1],points[0][2]);
     Point look = Point(points[1][0],points[1][1],points[1][2]);
     Point up = Point(points[2][0],points[2][1],points[2][2]);
-    cout << eye.x << " " << eye.y << " " << eye.z << endl;
-    cout << look.x << " " << look.y << " " << look.z << endl;
-    cout << up.x << " " << up.y << " " << up.z << endl;
+    // cout << eye.x << " " << eye.y << " " << eye.z << endl;
+    // cout << look.x << " " << look.y << " " << look.z << endl;
+    // cout << up.x << " " << up.y << " " << up.z << endl;
     float fovY, aspectRatio, near, far;
     cin >> fovY >> aspectRatio >> near >> far;
-    cout << fovY << " " << aspectRatio << " " << near << " " << far << endl;
+    // cout << fovY << " " << aspectRatio << " " << near << " " << far << endl;
 
     string line;
     getline(cin,line);
@@ -236,8 +235,11 @@ int main(){
             p3=multiply(currentMatrix,p3);
             p3=p3/p3.m[3][0];
             p1.print();
+            
             p2.print();
+            
             p3.print();
+            cout<<endl;
             // cout<<"a triangle"<<endl;
            
         }
@@ -299,6 +301,9 @@ int main(){
 
     cin.rdbuf(cinbuf);
     cout.rdbuf(coutbuf);
+    in.close();
+    out.close();
+
     // stage 1 completed
     
 }
