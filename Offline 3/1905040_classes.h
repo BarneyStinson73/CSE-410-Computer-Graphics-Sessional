@@ -1,11 +1,6 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-#include <iostream>
-#include <fstream>
-#include <sstream>
+#include<cmath>
+#include<iostream>
 #include<GL/glut.h>
-
 #define PI acos(-1.0)
 #define DEG2RAD(deg) (deg * PI / 180)
 
@@ -39,6 +34,7 @@ double maxSphereRadius = MAX_TRIANGLE_SIDE / sqrt(3.0);
 double sphere_radius = 0;
 int counter=0;
 double object_angle=0.0;
+
 class point{
     public:
     double x;
@@ -101,9 +97,8 @@ class point{
     // friend point operator*(double constant, point const& right);
 
 };
-// point operator*(double constant, point const& right) {
-//     return point(right.x*constant,right.y*constant,right.z*constant);
-// }
+
+
 point normalize(point p){
     double t;
     t=p.x * p.x + p.y* p.y + p.z*p.z;
@@ -123,6 +118,7 @@ point rodriguez_formula(point a,point k,double angle){
     temp=a*cos(angle)+k.cross_product(a)*sin(angle)+k*(k.dot_product(a))*(1-cos(angle));
     return temp;
 }
+
 class cam_position{
     public:
     point up;
@@ -216,108 +212,123 @@ class cam_position{
         up=rodriguez_formula(up,look_vector,angle);
     }
     void print(){
-        cout<<"up: "<<up.x<<" "<<up.y<<" "<<up.z<<endl;
-        cout<<"look: "<<look.x<<" "<<look.y<<" "<<look.z<<endl;
-        cout<<"right: "<<right.x<<" "<<right.y<<" "<<right.z<<endl;
-        cout<<"position: "<<position.x<<" "<<position.y<<" "<<position.z<<endl;
+        std::cout<<"up: "<<up.x<<" "<<up.y<<" "<<up.z<<std::endl;
+        std::cout<<"look: "<<look.x<<" "<<look.y<<" "<<look.z<<std::endl;
+        std::cout<<"right: "<<right.x<<" "<<right.y<<" "<<right.z<<std::endl;
+        std::cout<<"position: "<<position.x<<" "<<position.y<<" "<<position.z<<std::endl;
     
     }
 };
-cam_position cam;
-void draw_axis(){
-    glPushMatrix();
-    glBegin(GL_LINES);
-    {
-        glColor3f(1, 0, 0);
-        glVertex3f(-AXIS_LEN , 0, 0);
-        glVertex3f(AXIS_LEN, 0, 0);
-        glColor3f(0, 1, 0);
-        glVertex3f(0, -AXIS_LEN , 0);
-        glVertex3f(0, AXIS_LEN, 0);
-        glColor3f(0, 0, 1);
-        glVertex3f(0, 0, -AXIS_LEN );
-        glVertex3f(0, 0, AXIS_LEN);
-    }
-    glEnd();
 
+class Object{
+ // should have x, y, z
+public:
+double height, width, length;
+double color[3];
+double coEfficients[4]; // ambient, diffuse, specular,reflection coefficients
+int shine ;// exponent term of specular component
+
+point reference_point;
+virtual void draw(){}
+void setColor(double r,double g,double b){
+    color[0]=r;
+    color[1]=g;
+    color[2]=b;
+}
+void setShine(int s){
+    shine=s;
+}
+void setCoEfficients(double a,double d,double s,double r){
+    coEfficients[0]=a;
+    coEfficients[1]=d;
+    coEfficients[2]=s;
+    coEfficients[3]=r;
+}
+};
+
+class Sphere:public Object{
+public:
+Sphere(point p,double r){
+    reference_point=p;
+    length=r;
+}
+void draw(){
+    glPushMatrix();
+    {
+        glTranslatef(reference_point.x,reference_point.y,reference_point.z);
+        glColor3f(color[0],color[1],color[2]);
+        glutSolidSphere(length,100,100);
+    }
     glPopMatrix();
 }
+};
 
-double a=0.5;
-// 1- look left, 2- look right, 3- look up, 4- look down, 5- tilt anti clockwise, 6- tilt clockwise
-// up arrow- move forward, down arrow- move backward, left arrow- move left, right arrow- move right ,page up- move up, page down- move down
-void keyboardListener(unsigned char key, int x, int y){
-    cout<<key<<endl;
-    switch(key){
-        case '1':
-            cam.look_left();
-            break;
-        case '2':
-            cam.look_right();
-            break;
-        case '3':
-            cam.look_up();
-            break;
-        case '4':
-            cam.look_down();
-            break;
-        case '5':
-            cam.tilt_anticlockwise();
-            break;
-        case '6':
-            cam.tilt_clockwise();
-            break;
-        case '7':
-            cam.print();
-            break;
-        case ',':
-            if(triangle_side>0){
-                triangle_side=max(triangle_side-.3,0.0);
-                sphere_radius= min(MAX_TRIANGLE_SIDE/sqrt(3),sphere_radius+.3 / sqrt(3.0));
-            }
-            break;
-        case '.':
-            if(triangle_side<MAX_TRIANGLE_SIDE){
-                triangle_side=min(triangle_side+.3,MAX_TRIANGLE_SIDE);
-                sphere_radius= max(0.0,sphere_radius-.3 / sqrt(3.0));
-            }
-            break;
-        case 'a':
-            object_angle-=5;
-            break;
-        case 'd':
-            object_angle+=5;
-            break;
-        default:
-            break;
-    }
-    glutPostRedisplay();
+class Triangle:public Object{
+public:
+point a,b,c;
+Triangle(point p1,point p2,point p3){
+    a=p1;
+    b=p2;
+    c=p3;
 }
-void specialKeyListener(int key, int x, int y){
-    switch(key){
-        case GLUT_KEY_UP:
-            cam.move_forward();
-            break;
-        case GLUT_KEY_DOWN:
-            cam.move_backward();
-            break;
-        case GLUT_KEY_LEFT:
-            cam.move_left();
-            break;
-        case GLUT_KEY_RIGHT:
-            cam.move_right();
-            break;
-        case GLUT_KEY_PAGE_UP:
-            cam.move_up();
-            break;
-        case GLUT_KEY_PAGE_DOWN:
-            cam.move_down();
-            break;
-        default:
-            break;
+void draw(){
+    glPushMatrix();
+    {
+        glTranslatef(reference_point.x,reference_point.y,reference_point.z);
+        glColor3f(color[0],color[1],color[2]);
+        glBegin(GL_TRIANGLES);
+        {
+            glVertex3f(a.x,a.y,a.z);
+            glVertex3f(b.x,b.y,b.z);
+            glVertex3f(c.x,c.y,c.z);
+        }
+        glEnd();
     }
-    glutPostRedisplay();
+    glPopMatrix();
 }
+};
+
+class General:public Object{
+public:
+double a,b,c,d,e,f,g,h,i,j;
+General(double A,double B,double C,double D,double E,double F,double G,double H,double I,double J){
+    a=A;
+    b=B;
+    c=C;
+    d=D;
+    e=E;
+    f=F;
+    g=G;
+    h=H;
+    i=I;
+    j=J;
+}
+};
+
+class PointLight{
+public:
+point lightPos;
+double color[3];
+PointLight(){}
+PointLight(point p,double r,double g,double b){
+    lightPos=p;
+    color[0]=r;
+    color[1]=g;
+    color[2]=b;
+}
+};
+
+class SpotLight{
+public:
+PointLight pointLight;
+point direction;
+double cutoff_angle;
+SpotLight(PointLight p,point d,double angle){
+    pointLight=p;
+    direction=d;
+    cutoff_angle=angle;
+}
+};
 
 void drawCheckerBox(double a, int color = 0) {
   glBegin(GL_QUADS);
@@ -334,7 +345,6 @@ void drawCheckerBox(double a, int color = 0) {
   }
   glEnd();
 }
-
 void drawCheckers(double a) {
   for (int i = -40; i < 40; i++) {
     for (int j = -40; j < 40; j++) {
@@ -345,57 +355,26 @@ void drawCheckers(double a) {
     }
   }
 }
-
-
-void Display(void)
-{
-
-    glEnable(GL_DEPTH_TEST);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-    glMatrixMode(GL_MODELVIEW);
-    glLoadIdentity();
-
-    gluLookAt(cam.position.x, cam.position.y, cam.position.z, cam.look.x, cam.look.y, cam.look.z, cam.up.x, cam.up.y, cam.up.z);
-
-
-    counter++;
-    // cout<<counter<<endl;
-    draw_axis();
-    glRotatef(object_angle, 0, 0, 1);
-    drawCheckers(2);
-
-    a = 1.0;
-
-
-    glFlush();
-    glutSwapBuffers();
-
+class Floor:public Object{
+public:
+// double floorWidth,tileWidth;
+Floor(double floorWidth,double tileWidth){
+    reference_point=point(-floorWidth/2,-floorWidth/2,0);
+    length=floorWidth;
 }
-void init(void)
-{
-    glClearColor(0.0, 0.0, 0.0, 0.0);
-    glMatrixMode(GL_PROJECTION);
-    glLoadIdentity();
-    gluPerspective(45.0, 1, 1, 100.0);
+void draw(){
+ // There will be a floor along the XY-plane
+// FloorWidth can be 1000 (from origin 500 across each side)
+// Each Tile Width can be 20
+// Color should be alternating
+// Use GL_QUADS to draw the floor
+    glPushMatrix();
+    {
+        glTranslatef(reference_point.x,reference_point.y,reference_point.z);
+        drawCheckers(length/20.0);
+    }
+    glPopMatrix();
 }
-void idle(){
-    glutPostRedisplay();
-}
-int main(int argc, char** argv)
-{
-    glutInit(&argc, argv);
-    glutInitWindowPosition(100, 100);
-    glutInitWindowSize(800, 800);
-    glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
-    
-    glutCreateWindow("Task 2");
-    init();
-    glEnable(GL_DEPTH_TEST);
-    glutDisplayFunc(Display);
-    glutKeyboardFunc(keyboardListener);
-    glutSpecialFunc(specialKeyListener);
-    glutIdleFunc(idle);
-    glutMainLoop();
-    return 0;
-}
+};
+
+
