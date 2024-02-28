@@ -6,6 +6,7 @@ using namespace std;
 #include <sstream>
 #include<GL/glut.h>
 #include "1905040_classes.h"
+#include "bitmap_image.hpp"
 
 // point operator*(double constant, point const& right) {
 //     return point(right.x*constant,right.y*constant,right.z*constant);
@@ -34,13 +35,16 @@ void draw_axis(){
 
     glPopMatrix();
 }
-
+void capture();
 double a=0.5;
 // 1- look left, 2- look right, 3- look up, 4- look down, 5- tilt anti clockwise, 6- tilt clockwise
 // up arrow- move forward, down arrow- move backward, left arrow- move left, right arrow- move right ,page up- move up, page down- move down
 void keyboardListener(unsigned char key, int x, int y){
     cout<<key<<endl;
     switch(key){
+        case '0':
+            capture();
+            break;
         case '1':
             cam.look_left();
             break;
@@ -138,7 +142,63 @@ void specialKeyListener(int key, int x, int y){
 //   }
 // }
 
+void capture(){
+//     initialize bitmap image and set background color
+// planeDistance = (windowHeight/2.0) /
+// tan(viewAngle/2.0)
+// topleft = eye + l*planeDistance - r*windowWidth/2 +
+// u*windowHeight/2
+// du = windowWidth/imageWidth
+// dv = windowHeight/imageHeight
+// // Choose middle of the grid cell
+// topleft = topleft + r*(0.5*du) - u*(0.5*dv)
+// int nearest;
+// double t, tMin;
+// for i=1:imageWidth
+// for j=1:imageHeight
+// calculate curPixel using topleft,r,u,i,j,du,dv
+// cast ray from eye to (curPixel-eye) direction
+// double *color = new double[3]
+// for each object, o in objects
+// t = o.intersect(ray, dummyColor, 0)
+// update t so that it stores min +ve value
+// save the nearest object, on
+// tmin = on->intersect(ray, color, 1)
+// update image pixel (i,j)
+// save image // The 1st image you capture after running the program
+// should be named Output_11.bmp, the 2nd image you capture should be
+// named Output_12.bmp and so on
 
+    bitmap_image image(800, 800);
+    double planeDistance = (800/2.0) / tan(45/2.0);
+    point topleft = cam.position + cam.look*planeDistance - cam.right*800/2 + cam.up*800/2;
+    double du = 800/800;
+    double dv = 800/800;
+    topleft = topleft + cam.right*(0.5*du) - cam.up*(0.5*dv);
+    for(int i=0;i<800;i++){
+        for(int j=0;j<800;j++){
+            point curPixel = topleft + cam.right*i*du - cam.up*j*dv;
+            ray ray(cam.position,curPixel-cam.position);
+            double tMin = INT_MAX;
+            Object* nearest = NULL;
+            for(int k=0;k<objects.size();k++){
+                double dummyColor[3];
+                double t = objects[k]->intersect(&ray,dummyColor,0);
+                if(t>0 && t<tMin){
+                    tMin = t;
+                    nearest = objects[k];
+                }
+            }
+            if(nearest!=NULL){
+                double color[3];
+                tMin = nearest->intersect(&ray,color,1);
+                image.set_pixel(i,j,color[0]*255,color[1]*255,color[2]*255);
+            }
+        }
+    }
+    image.save_image("Output.bmp");
+
+}
 void Display(void)
 {
 

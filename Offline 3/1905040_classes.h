@@ -119,6 +119,16 @@ point rodriguez_formula(point a,point k,double angle){
     return temp;
 }
 
+
+class ray{
+    public:
+    point start;
+    point dir;
+    ray(point a,point b){
+        start=a;
+        dir=b;
+    }
+};
 class cam_position{
     public:
     point up;
@@ -244,6 +254,10 @@ void setCoEfficients(double a,double d,double s,double r){
     coEfficients[2]=s;
     coEfficients[3]=r;
 }
+virtual double intersect(ray *r,double *color,int level){
+    return -1.0;
+    
+};
 };
 
 class Sphere:public Object{
@@ -261,6 +275,95 @@ void draw(){
     }
     glPopMatrix();
 }
+
+double intersect(ray *r,double *color,int level){
+
+    // ray origin inside or outside or on the sphere
+    point oc=r->start-reference_point;
+    double r_2=length*length;
+    double b=2*oc.dot_product(r->dir);
+    double c=oc.dot_product(oc)-r_2;
+    int flag=0;
+    if(c<0){
+        flag=-1;
+    }
+    else if(c==0){
+        flag=0;
+    }
+    else{
+        flag=1;
+    }
+    double t_p=-oc.dot_product(r->dir);
+    if(t_p<0 && flag==-1){
+        return -1.0;
+    }
+    // finding squared distance
+    double d_2=oc.dot_product(oc)-t_p*t_p;
+    if(d_2>r_2){
+        return -1.0;
+    }
+    double t_2=r_2-d_2;
+    double result;
+    if(flag==1){
+        result=t_p-sqrt(t_2);
+    }
+    else if(flag==-1){
+        result=t_p+sqrt(t_2);
+    }
+    cout<<"Sphere intersected"<<result<<endl;
+    if (level == 0) {
+        return result;
+
+    }
+    point intersection_point = r->start + r->dir * result;
+    for (int i = 0; i < 3; i++) {
+        color[i] = this->color[i] * coEfficients[0];
+    }
+    point normal = intersection_point - reference_point;
+    normal = normalize(normal);
+    // for each point light pl in pointLights
+// cast rayl from pl.light_pos to intersectionPoint
+    for(int i=0;i<pointLights.size();i++){
+        pointLights[i].lightPos;
+        pointLights[i].color[0];
+        pointLights[i].color[1];
+        pointLights[i].color[2];
+        point l = pointLights[i].lightPos - intersection_point;
+        double l_len = sqrt(l.dot_product(l));
+        l = normalize(l);
+        ray shadow_ray = ray(intersection_point, l);
+        double t = 0;
+        for (int j = 0; j < objects.size(); j++) {
+            t = objects[j]->intersect(&shadow_ray, color, 0);
+            if (t > 0 && t < l_len) {
+                for (int k = 0; k < 3; k++) {
+                    color[k] = 0;
+                }
+                break;
+            }
+        }
+        if (t == -1) {
+            double lambert = l.dot_product(normal);
+            if (lambert > 0) {
+                for (int j = 0; j < 3; j++) {
+                    color[j] += lambert * coEfficients[1] * pointLights[i].color[j];
+                }
+                point v = cam.position - intersection_point;
+                v = normalize(v);
+                point r = normal * (2 * l.dot_product(normal)) - l;
+                double r_dot_v = r.dot_product(v);
+                if (r_dot_v > 0) {
+                    double specular = pow(r_dot_v, shine);
+                    for (int j = 0; j < 3; j++) {
+                        color[j] += specular * coEfficients[2] * pointLights[i].color[j];
+                    }
+                }
+            }
+        }
+    }
+
+    
+
 };
 
 class Triangle:public Object{
