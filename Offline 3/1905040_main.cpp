@@ -17,6 +17,7 @@ vector<Object*> objects;
 vector<PointLight> pointLights;
 vector<SpotLight> spotLights;
 cam_position cam;
+int recursionLevel,pixelCount,shapeCount;
 void draw_axis(){
     glPushMatrix();
     glBegin(GL_LINES);
@@ -245,7 +246,6 @@ int main(int argc, char** argv)
     std::ifstream inputFile("./scene.txt"); 
     
     if (inputFile.is_open()) {
-        int recursionLevel,pixelCount,shapeCount;
         inputFile >> recursionLevel >> pixelCount;
         inputFile >> shapeCount;
         // cout<<recursionLevel<<" "<<pixelCount<<endl;
