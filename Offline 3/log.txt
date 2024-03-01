@@ -1,0 +1,10 @@
+sphere in 0
+sphere in 1
+sphere in 2
+triangle in 3
+triangle in 4
+triangle in 5
+general in 6
+general in 7
+floor in 9
+0

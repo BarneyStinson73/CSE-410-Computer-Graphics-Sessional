@@ -143,6 +143,7 @@ void specialKeyListener(int key, int x, int y){
 //   }
 // }
 
+    double windowHeight = 800, windowWidth = 800;
 void capture(){
 //     initialize bitmap image and set background color
 // planeDistance = (windowHeight/2.0) /
@@ -169,18 +170,22 @@ void capture(){
 // save image // The 1st image you capture after running the program
 // should be named Output_11.bmp, the 2nd image you capture should be
 // named Output_12.bmp and so on
-
-    bitmap_image image(800, 800);
-    double planeDistance = (800/2.0) / tan(45/2.0);
-    point topleft = cam.position + cam.look*planeDistance - cam.right*800/2 + cam.up*800/2;
-    double du = 800/800;
-    double dv = 800/800;
-    topleft = topleft + cam.right*(0.5*du) - cam.up*(0.5*dv);
-    for(int i=0;i<800;i++){
-        for(int j=0;j<800;j++){
-            point curPixel = topleft + cam.right*i*du - cam.up*j*dv;
+    bitmap_image image(pixelCount, pixelCount);
+    image.set_all_channels(0, 0, 0);
+    double planeDistance = (windowHeight/2.0) / tan(DEG2RAD((60/2.0)));
+    point up_vector=normalize(cam.up);
+    point look_vector = normalize(cam.look - cam.position);
+    point right_vector = look_vector.cross_product(up_vector);
+    point topleft = cam.position + look_vector*planeDistance - right_vector*windowWidth/2 + up_vector*windowHeight/2;
+    double du = 1.0*windowWidth/pixelCount;
+    double dv = 1.0*windowHeight/pixelCount;
+    topleft = topleft + right_vector*(0.5*du) - up_vector*(0.5*dv);
+    for(int i=0;i<pixelCount;i++){
+        for(int j=0;j<pixelCount;j++){
+            point curPixel = topleft + right_vector*i*du - up_vector*j*dv;
             ray ray(cam.position,curPixel-cam.position);
-            double tMin = INT_MAX;
+            double tMin = DBL_MAX;
+            int min=-1;
             Object* nearest = NULL;
             for(int k=0;k<objects.size();k++){
                 double dummyColor[3];
@@ -188,11 +193,15 @@ void capture(){
                 if(t>0 && t<tMin){
                     tMin = t;
                     nearest = objects[k];
+                    min=k;
                 }
             }
             if(nearest!=NULL){
                 double color[3];
                 tMin = nearest->intersect(&ray,color,1);
+                if(color[0]>1) color[0] = 1;
+                if(color[1]>1) color[1] = 1;
+                if(color[2]>1) color[2] = 1;
                 image.set_pixel(i,j,color[0]*255,color[1]*255,color[2]*255);
             }
         }
@@ -234,7 +243,7 @@ void init(void)
     glClearColor(0.0, 0.0, 0.0, 0.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluPerspective(45.0, 1, 1, 5000.0);
+    gluPerspective(60.0, 1, 1, 5000.0);
 }
 void idle(){
     glutPostRedisplay();
@@ -269,7 +278,7 @@ int main(int argc, char** argv)
                 triangle->setCoEfficients(ambient,diffuse,specular,reflection);
                 triangle->setShine(shininess);
                 objects.push_back(triangle);
-
+                cout<<"triangle in "<<i<<endl;
             }
             else if(shapeType=="sphere"){
                 double x,y,z,r;
@@ -285,21 +294,29 @@ int main(int argc, char** argv)
                 sphere->setCoEfficients(ambient,diffuse,specular,reflection);
                 sphere->setShine(shininess);
                 objects.push_back(sphere);
+                cout<<"sphere in "<<i<<endl;
             }
             else if(shapeType=="general"){
                 double A,B,C,D,E,F,G,H,I,J;
                 inputFile >> A >> B >> C >> D >> E >> F >> G >> H >> I >> J;
+                double x,y,z;
+                inputFile >> x >> y >> z;
+                point center(x,y,z);
+                double length, width, height;
+                inputFile >> length >> width >> height;
+
                 double red,green,blue;
                 inputFile >> red >> green >> blue;
                 double ambient,diffuse,specular,reflection;
                 inputFile >> ambient >> diffuse >> specular >> reflection;
                 double shininess;
                 inputFile >> shininess;
-                Object* general = new General(A,B,C,D,E,F,G,H,I,J);
+                Object* general = new General(A,B,C,D,E,F,G,H,I,J,center,length,width,height);
                 general->setColor(red,green,blue);
                 general->setCoEfficients(ambient,diffuse,specular,reflection);
                 general->setShine(shininess);
                 objects.push_back(general);
+                cout<<"general in "<<i<<endl;
             }
         }
         int lightCount;
@@ -319,11 +336,11 @@ int main(int argc, char** argv)
             SpotLight spotLight(pointLight,point(dir_x,dir_y,dir_z),angle);
             spotLights.push_back(spotLight);
         }
-        Floor floor(1000,20);
-        floor.setCoEfficients(0.4,0.4,0.4,0.2);
-        floor.setShine(5);
-        objects.push_back(&floor);
-
+        Object *floor=new Floor(1000,20);
+        floor->setCoEfficients(0.4,0.2,0.2,0.2);
+        floor->setShine(5);
+        objects.push_back(floor);
+        cout<<"floor in "<<objects.size()<<endl;
 
     } 
     else {
@@ -334,7 +351,7 @@ int main(int argc, char** argv)
     
     glutInit(&argc, argv);
     glutInitWindowPosition(100, 100);
-    glutInitWindowSize(800, 800);
+    glutInitWindowSize(windowWidth, windowHeight);
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
     
     glutCreateWindow("Task 2");

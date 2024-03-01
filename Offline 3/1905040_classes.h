@@ -299,19 +299,25 @@ void setCoEfficients(double a,double d,double s,double r){
 virtual double intersect_helper(ray *r)=0;
 virtual double intersect(ray *r,double *color,int level){
     double result= intersect_helper(r);
+    if(result<0) return -1.0;
     if (level == 0) {
         return result;
     }
     point intersection_point = r->start + r->dir * result;
-    for (int i = 0; i < 3; i++) {
-        color[i] = this->color[i] * coEfficients[0];
-    }
-    point normal = intersection_point - reference_point;
-    normal = normalize(normal);
+    colour p= getColorAt(intersection_point);
+    // for (int i = 0; i < 3; i++) {
+    //     color[i] = this->color[i] * coEfficients[0];
+    // }
+    color[0]= p.r * coEfficients[0];
+    color[1]= p.g * coEfficients[0];
+    color[2]= p.b * coEfficients[0];
+    // point normal = intersection_point - reference_point;
+    // normal = normalize(normal);
+    point normal=calculateNormal(intersection_point);
     if(normal.dot_product(r->dir) > 0){
         normal = -normal;
     }
-    colour p= getColorAt(intersection_point);
+    
     // for each point light pl in pointLights
     // cast rayl from pl.light_pos to intersectionPoint
     for(int i=0;i<pointLights.size();i++){
@@ -405,13 +411,13 @@ virtual double intersect(ray *r,double *color,int level){
         double t=DBL_MAX;
         for(int kk=0;kk<objects.size();kk++){
             double temp = objects[kk]->intersect(&reflected_ray, color, 0);
-            if(t>0 && temp<t){
+            if(temp>0 && temp<t){
                 t=temp;
                 index=kk;
             }
             
         }
-        if (t > 0) {
+        if (index!=-1) {
             double temp_color[3] = {0, 0, 0};
             t = objects[index]->intersect(&reflected_ray, temp_color, level + 1);
             for (int j = 0; j < 3; j++) {
@@ -429,7 +435,7 @@ virtual colour getColorAt(point p){
     c.b=color[2];
     return c;
 }
-point calculateNormal(point p){
+virtual point calculateNormal(point p){
     return normal;
     
 }
@@ -491,129 +497,12 @@ double intersect_helper(ray *r){
     }
     return result;
 }
-// double intersect(ray *r,double *color,int level){
-//     double result= intersect_helper(r);
-//     if (level == 0) {
-//         return result;
-//     }
-    // point intersection_point = r->start + r->dir * result;
-    // for (int i = 0; i < 3; i++) {
-    //     color[i] = this->color[i] * coEfficients[0];
-    // }
-    // point normal = intersection_point - reference_point;
-    // normal = normalize(normal);
-    // if(normal.dot_product(r->dir) > 0){
-    //     normal = -normal;
-    // }
-    // colour p= getColorAt(intersection_point);
-    // // for each point light pl in pointLights
-    // // cast rayl from pl.light_pos to intersectionPoint
-    // for(int i=0;i<pointLights.size();i++){
-        
-    //     point l = -(pointLights[i].lightPos - intersection_point);
-    //     double l_len = sqrt(l.dot_product(l));
-    //     if(l_len<1e-5){
-    //         continue;
-    //     }
-    //     l = normalize(l);
-    //     ray shadow_ray = ray(pointLights[i].lightPos, l);
-    //     double t = 0;
-    //     bool inShadow = false;
-    //     for (int j = 0; j < objects.size(); j++) {
-    //         t = objects[j]->intersect(&shadow_ray, color, 0);
-    //         if (t > 0 && t+1e-5 < l_len) {
-    //             inShadow = true;
-    //             break;
-    //         }
-    //     }
-    //     if (!inShadow) {
-    //         double lambert = -l.dot_product(normal);
-    //         if (lambert > 0) {
-    //             // for (int j = 0; j < 3; j++) {
-    //             //     color[j] += lambert * coEfficients[1] * pointLights[i].color[j];
-    //             // }
-    //             color[0] += lambert * coEfficients[1] * pointLights[i].color[0] * p.r;
-    //             color[1] += lambert * coEfficients[1] * pointLights[i].color[1] * p.g;
-    //             color[2] += lambert * coEfficients[1] * pointLights[i].color[2] * p.b;
-    //         }
-    //         point reflect = l - normal * (2 * l.dot_product(normal));
-    //         reflect = normalize(reflect);
-    //         double phong = -(reflect.dot_product(r->dir));
-    //         if (phong > 0) {
-    //             double specular = pow(phong, shine);
-    //             color[0] += specular * coEfficients[2] * pointLights[i].color[0] * p.r;
-    //             color[1] += specular * coEfficients[2] * pointLights[i].color[1] * p.g;
-    //             color[2] += lambert * coEfficients[2] * pointLights[i].color[2] * p.b;
-    //         }
-    //     }
-    // }
-    // for(int i=0;i<spotLights.size();i++){
-        
-    //     point l = -(spotLights[i].pointLight.lightPos - intersection_point);
-    //     double l_len = sqrt(l.dot_product(l));
-    //     if(l_len<1e-5){
-    //         continue;
-    //     }
-    //     l = normalize(l);
-    //     double angle = acos(l.dot_product(spotLights[i].direction))*180/3.1416;
-    //     if(angle>spotLights[i].cutoff_angle){
-    //         continue;
-    //     }
-    //     ray shadow_ray = ray(spotLights[i].pointLight.lightPos, l);
-    //     double t = 0;
-    //     bool inShadow = false;
-    //     for (int j = 0; j < objects.size(); j++) {
-    //         t = objects[j]->intersect(&shadow_ray, color, 0);
-    //         if (t > 0 && t+1e-5 < l_len) {
-    //             inShadow = true;
-    //             break;
-    //         }
-    //     }
-    //     if (!inShadow) {
-    //         double lambert = -l.dot_product(normal);
-    //         if (lambert > 0) {
-    //             // for (int j = 0; j < 3; j++) {
-    //             //     color[j] += lambert * coEfficients[1] * pointLights[i].color[j];
-    //             // }
-    //             color[0] += lambert * coEfficients[1] * pointLights[i].color[0] * p.r;
-    //             color[1] += lambert * coEfficients[1] * pointLights[i].color[1] * p.g;
-    //             color[2] += lambert * coEfficients[1] * pointLights[i].color[2] * p.b;
-    //         }
-    //         point reflect = l - normal * (2 * l.dot_product(normal));
-    //         reflect = normalize(reflect);
-    //         double phong = -(reflect.dot_product(r->dir));
-    //         if (phong > 0) {
-    //             double specular = pow(phong, shine);
-    //             color[0] += specular * coEfficients[2] * pointLights[i].color[0] * p.r;
-    //             color[1] += specular * coEfficients[2] * pointLights[i].color[1] * p.g;
-    //             color[2] += lambert * coEfficients[2] * pointLights[i].color[2] * p.b;
-    //         }
-    //     }
-    // }
 
-    // if(level<recursionLevel){
-    //     point reflect = r->dir - normal * (2 * r->dir.dot_product(normal));
-    //     reflect = normalize(reflect);
-    //     ray reflected_ray = ray(intersection_point+reflect*1e-5, reflect);
-    //     int index = -1;
-    //     double t=DBL_MAX;
-    //     for(int kk=0;kk<objects.size();kk++){
-    //         double temp = objects[kk]->intersect(&reflected_ray, color, 0);
-    //         if(t>0 && temp<t){
-    //             t=temp;
-    //             index=kk;
-    //         }
-            
-    //     }
-    //     if (t > 0) {
-    //         double temp_color[3] = {0, 0, 0};
-    //         t = objects[index]->intersect(&reflected_ray, temp_color, level + 1);
-    //         for (int j = 0; j < 3; j++) {
-    //             color[j] += coEfficients[3] * temp_color[j];
-    //         }
-    //     }
-    // }
-// }
+point calculateNormal(point p){
+    point normal = p - reference_point;
+    normal = normalize(normal);
+    return normal;
+}
 
 };
 
@@ -684,17 +573,33 @@ point calculateNormal(point p){
 class General:public Object{
 public:
 double a,b,c,d,e,f,g,h,i,j;
-General(double A,double B,double C,double D,double E,double F,double G,double H,double I,double J){
+General(double A,double B,double C,double D,double E,double F,double G,double H,double I,double J, point center, double x,double y,double z){
     a=A;
     b=B;
     c=C;
     d=D;
-    e=E;
-    f=F;
+    e=F;
+    f=E;
     g=G;
     h=H;
     i=I;
     j=J;
+    reference_point=center;
+    length=x;
+    width=y;
+    height=z;
+}
+bool insideGeneral(point p){
+    double x = p.x - reference_point.x;
+    double y = p.y - reference_point.y;
+    double z = p.z - reference_point.z;
+    if(fabs(length)>1e-5 && (x < 0 || x > length ))
+        return false;
+    if(fabs(width)>1e-5 && (y < 0 || y > width ))
+        return false;
+    if(fabs(height)>1e-5 && (z < 0 || z > height ))
+        return false;
+    return true;
 }
 double intersect_helper(ray *r){
 
@@ -708,15 +613,15 @@ double intersect_helper(ray *r){
     }
     double t1 = (-bb + sqrt(determinant)) / (2 * aa);
     double t2 = (-bb - sqrt(determinant)) / (2 * aa);
-    double t=t1<t2?t1:t2;
-    if(t<0){
-        t=t1>t2?t1:t2;
+    double tMin=t1<t2?t1:t2;
+    double tMax=t1>t2?t1:t2;
+    if(tMin>0 && insideGeneral(r->start + r->dir * tMin)){
+        return tMin;
     }
-    if(t<0){
-        return -1.0;
+    else if(tMax>0 && insideGeneral(r->start + r->dir * tMax)){
+        return tMax;
     }
-    return t;
-
+    return -1;
 }
 point calculateNormal(point p){
     point normal;
@@ -745,28 +650,32 @@ void drawCheckerBox(double a, int color = 0) {
   }
   glEnd();
 }
-void drawCheckers(double a) {
-  for (int i = -40; i < 40; i++) {
-    for (int j = -40; j < 40; j++) {
-      glPushMatrix();
-      glTranslatef(i * a, j * a, 0);
-      drawCheckerBox(a, (i + j) % 2);
-      glPopMatrix();
-    }
-  }
-}
 class Floor:public Object{
+
+void drawCheckers() {
+    for (double i = reference_point.x; i < -reference_point.x; i+=length) {
+        for (double j = reference_point.y; j < -reference_point.y; j+=length) {
+            int x = (i - reference_point.x) / length;
+            int y = (j - reference_point.y) / length;
+            glPushMatrix();
+            {
+                glTranslatef(i, j, 0);
+                drawCheckerBox(length, (x + y) % 2);
+            }
+            glPopMatrix();
+        }
+    }
+}
 public:
 // double floorWidth,tileWidth;
 Floor(double floorWidth,double tileWidth){
     reference_point=point(-floorWidth/2,-floorWidth/2,0);
-    length=floorWidth;
+    length=tileWidth;
 }
 void draw(){
     glPushMatrix();
     {
-        glTranslatef(reference_point.x,reference_point.y,reference_point.z);
-        drawCheckers(length/20.0);
+        drawCheckers();
     }
     glPopMatrix();
 }
@@ -779,7 +688,7 @@ double intersect_helper(ray *r){
     if(t<0){
         return -1.0;
     }
-    if(r->start.x+t*r->dir.x<reference_point.x/2 || r->start.x+t*r->dir.x>-reference_point.x/2 || r->start.y+t*r->dir.y<reference_point.y/2 || r->start.y+t*r->dir.y>-reference_point.y/2){
+    if(r->start.x+t*r->dir.x<reference_point.x || r->start.x+t*r->dir.x>-reference_point.x|| r->start.y+t*r->dir.y<reference_point.y || r->start.y+t*r->dir.y>-reference_point.y){
         return -1.0;
     }
     return t;
